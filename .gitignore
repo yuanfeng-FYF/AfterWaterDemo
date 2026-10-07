@@ -1,0 +1,16 @@
+# Unreal regenerates these locally. All Content, Config and Source are backed up.
+/.vs/
+/.vscode/
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.code-workspace
+/.ignore
+# Generated plugin files; retain plugin source, content and descriptors.
+/Plugins/**/Intermediate/
+/Plugins/**/DerivedDataCache/

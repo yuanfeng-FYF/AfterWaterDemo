@@ -1,0 +1,2827 @@
+{
+  "project": "AfterWaterDemo",
+  "engine": "5.5.4",
+  "created": "2026-10-07T17:08:28.9481743Z",
+  "files": [
+    {
+      "path": "AfterWaterDemo.uproject",
+      "bytes": 393,
+      "sha256": "9d2772d46c4b4751e5f925244ef63e1151d1d0cd22960daa4b7d4a32e45e6cd5"
+    },
+    {
+      "path": "Config/DefaultEditor.ini",
+      "bytes": 33977,
+      "sha256": "4639851d3a843ba9c99afcc3126c2a64ad19fbfeae0734120e845300b2d4a2b4"
+    },
+    {
+      "path": "Config/DefaultEditorPerProjectUserSettings.ini",
+      "bytes": 71,
+      "sha256": "721e2d60ff67464d39e5987fcd923be4929a917ee2c97ce2a1ca8aabc58e9ce6"
+    },
+    {
+      "path": "Config/DefaultEngine.ini",
+      "bytes": 2824,
+      "sha256": "c09be2249bfa582c00b578faa375566866cdc43cbb3b16cbc3ec3b7e3e0b5546"
+    },
+    {
+      "path": "Config/DefaultGame.ini",
+      "bytes": 133,
+      "sha256": "9e3d98a376c2ac1cbc661b2dac9c6270e2d52688fa45863a8d46ba04ba42e402"
+    },
+    {
+      "path": "Config/DefaultInput.ini",
+      "bytes": 9444,
+      "sha256": "dbd7430163b2bfdc4af4edc9a3e3a55d126fc4700406f72fa37d37158314bc80"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/43/HYQWORMY4JDQ5X3OKZXFLC.uasset",
+      "bytes": 2725,
+      "sha256": "b5b66a81c776d90069dce1a1f6b97fd13ebd75bed3eeecef9341b7769eb6c79b"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/FZ/4XWWUGWFDLX56REQRH8Z9W.uasset",
+      "bytes": 4085,
+      "sha256": "fb6ee8eb772326f09459ce560a30fdf856167c2d63e2d339994dfb2275f2f286"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/SX/SKO7AH9HKZVPN4OMFO4DV3.uasset",
+      "bytes": 4083,
+      "sha256": "41069649b9e18e8ef0fa7e499b0685d042dbefb25a4b6ff8cf05768ae9ece1a3"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/0G/HOAJZN9E4DDI6Y1W3JU13K.uasset",
+      "bytes": 4259,
+      "sha256": "7da4960c7166070d1beb553f5830711853b68576eb6e05b3d8cb3c8eb17c412a"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/2J/AQ1PWWT9TBAI7AA470T014.uasset",
+      "bytes": 4259,
+      "sha256": "6d58df588f04a19b1a7e9d24baaa072479e98424635ce2ad9b04f4a21d7f170f"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset",
+      "bytes": 12412,
+      "sha256": "f48da921e22f146a0e9a033494f73e7a6e0bdae23560c40541ea73e2c866210f"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/EJ/PGUWWHRTS59S34GKBX0OUI.uasset",
+      "bytes": 4607,
+      "sha256": "c09ae2489999de7866bfa0bb0ac8cf702067b14771f37972551555dd042b9d6f"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HF/YFYBQ72OYLHJQS0TSSXGBV.uasset",
+      "bytes": 4554,
+      "sha256": "aebc1a03fc1cc275a3a085a2414b75502cde3b9b7b8e596398c4a5f945bb198b"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/QS/VHQF8JWOATZI5V3ZVY5YTM.uasset",
+      "bytes": 4554,
+      "sha256": "d1a63a58fa0473b49ca10244c97f73cbc79689bcf463108c880c4e0d9b30c7a3"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/WU/NB37RT5Q32Z8MJWD8BD2SO.uasset",
+      "bytes": 3746,
+      "sha256": "7a9b50e79e5ef7ceed9e2d568bd7daf3741a7dc3c6504b48b12d1292f7fd3aed"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/66/0OP5U85W4H0R7CHG999ZDN.uasset",
+      "bytes": 3300,
+      "sha256": "9c63d31b74fb34ccd62f844218e1caea3096a9acfde112bb5edbeda02f86bd18"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/1V/XSFYSB2EC9Z21RQOBXZLMO.uasset",
+      "bytes": 4257,
+      "sha256": "a230044fd78fb50b1f1ed54138edbaa6a634ee5f8f59004ba0e9216fde66be60"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/B1/9G3WNX7WIR7UKI26T9LK5O.uasset",
+      "bytes": 4085,
+      "sha256": "beb985fce505d8b808a4b9ce039e3f1001c7c009a00d3afc85e0b23a0054d8fa"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/HE/U35NZS5A9W1UXP1E3FF2GW.uasset",
+      "bytes": 3983,
+      "sha256": "97a41f6a2af00e9b8edb95a77a6320c32078d2528512cbd5b180a86c3f36c6c4"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/OG/KDQDMXAXZXD8VLDDU4K3JL.uasset",
+      "bytes": 5015,
+      "sha256": "f3cd06524bb4945fb0fa8402ed950f03bef10d76f50f6dd19595da24a1d130a7"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset",
+      "bytes": 4438,
+      "sha256": "2e73c6c7d4d225a7196b2c5906fb34b7dd54ffa8cbcb7504f4a008ca733d16e1"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/Q1/5IZD4L3UPM3EEODZK67MH1.uasset",
+      "bytes": 4143,
+      "sha256": "787d45c626e04e33490e0293215d4eaa384f154eec3f9b7ac9611dab25d51b75"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/0D/0WM78RPJCXHX477YOZXKQE.uasset",
+      "bytes": 4083,
+      "sha256": "c21918f264c05666ed09cda482d4d137a7d81cc2a67f747bf6729ae8f7059d2b"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HF/9H7TKAXH9DD8KI3TIXGI2I.uasset",
+      "bytes": 4079,
+      "sha256": "a5d007cc8571f1191319d3e019324a754c466ef54fdff4a881ce2395298c905f"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NC/UUYHDUFQAXTRRN4RVOPIUF.uasset",
+      "bytes": 4107,
+      "sha256": "0bb5da121c05b7dc1da3c43e9cd7b67630d4d69e64d895adebf4584627f5bda3"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/NP/Z9EK2TXQ1TFO26WFZHWZII.uasset",
+      "bytes": 3364,
+      "sha256": "596d164a9c149af87b384d8132b74583aae4fa5b9fb6ff1fe5100efe48fc8689"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/UV/1C6W14EIHMXOXXB657JYKB.uasset",
+      "bytes": 4199,
+      "sha256": "4ae7576eee89d8def30e67ac4590f2349cdb26a1488f1d62670ba643a6aec883"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/7Y/C94R5C0R01QSL2SVHUG3KD.uasset",
+      "bytes": 4257,
+      "sha256": "7eeb2d5c32c92dde7da650f1c0e28b0318fdb2ec320eec6b38ec56e273e00c82"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/H9/GITN2HJQNERMM41FAE68W0.uasset",
+      "bytes": 3601,
+      "sha256": "d526e85dd6b00ae1e550a509dd21dc308b3bef198300938e7f3d49540704386a"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/P1/NN84RP20JNUCL0SHI5W2B8.uasset",
+      "bytes": 4137,
+      "sha256": "ad7ce57ee4db04d8b34862228a9a8eb0520a9a2016e982df5374e04e81041e85"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/21/WWYX44RDCCS98492P9K9O3.uasset",
+      "bytes": 4083,
+      "sha256": "2cc9b152cf0171f0da0147e7e2b1a45a7da803b8585fe0300d795a2bc98843ff"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6I/RU1L28PS820IOVH625A0DA.uasset",
+      "bytes": 4259,
+      "sha256": "ad08de5d7e928d08da67e868030cb76230874a9380200f27575dbc6fdc918ebe"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/CI/KST702KSCRZWYV56G3VJBD.uasset",
+      "bytes": 4195,
+      "sha256": "13c37cf7da8e54d5a9c733a209b3d84484e3c29a4a81e87f13f5520a51907770"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/MO/72II2GSLK9VS0ULW9SACWH.uasset",
+      "bytes": 4081,
+      "sha256": "1d9ae3c360d130eb5f2824b2235dd3bee7b61c649bd1e3056914b25f63f072d6"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/M7Z5RX3O7568TBJFK5R76I.uasset",
+      "bytes": 4197,
+      "sha256": "3d9785c14f57af40b7b2ea05a60a6dc5703e8ab9848ab980b0b7673c90524d0e"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/IO/07IVU4EY14FMETPGTJULEO.uasset",
+      "bytes": 4145,
+      "sha256": "dd01191dd97eddc4dd58042d38cf81bdbe6a2c7a7fb325c7ad5a72a8bf2a2601"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/CJ/ZQ5BFL59YGMQUT9ZD7CAHJ.uasset",
+      "bytes": 4083,
+      "sha256": "2d36d6d378261d895fd200239df3a51f71d91878886963f5b9c71c72c7afe1f4"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KW/9YH18EUCJFK5CZXL6H3W3R.uasset",
+      "bytes": 3378,
+      "sha256": "2fa993398f6b05dbdafe6d8cfa0444a8b1da501c3b103983d567b2d0c471ed98"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/0I/VIQQWOEJKSKV1EK1XGX3EY.uasset",
+      "bytes": 4195,
+      "sha256": "97556c67bcf00ebc8dc99200fb036e5ef9d2a7ba1c866932c30de63602eb6612"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset",
+      "bytes": 4064,
+      "sha256": "155efc55358d86b7b7017b683862030b83481f5dbb4551c9d759694bb112232b"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/MM/5416TNIX8GKJW3B714Y6WF.uasset",
+      "bytes": 4257,
+      "sha256": "da81cbbe66fd8cc93c6015adbdaf10d79d417f2102d586d230b9434415c50f6a"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/OI/BVNTLHAPOPDXURSVGR63ME.uasset",
+      "bytes": 4257,
+      "sha256": "1acced0dca47586b090ac74dc77bc38d083f07e68ae10fde10cb860c2befe25e"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/SY/Z4CTQ4LG3YV10EKPD0UE8Q.uasset",
+      "bytes": 849,
+      "sha256": "90adcdc364f7f30c5538c5bf8596bea4f66c70068f90990210fc986aeb2ef5ea"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VL/KUT2U1MQ1ND9CXN070OTDM.uasset",
+      "bytes": 4085,
+      "sha256": "b251c0f1d34e124a9c75c2efcb3c74fabcfdf5871b15a68d18df63e89c322fb5"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/FR/LBG6LPN5JCL3FMVSI2CK6R.uasset",
+      "bytes": 2580,
+      "sha256": "e6cbaaaa9a10138be4952b22394cd3107901561e24650e05851f7f327326cc7b"
+    },
+    {
+      "path": "Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/T8/46ZIBNTTDDR3AOR2XC9VO6.uasset",
+      "bytes": 4197,
+      "sha256": "4a82e69dbef197b40a16ea06a6b44aff09f7d81ec7c0de80ef77aa7ca47b9197"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/3/DH/JQTP3L9HHXRN8IUHATI906.uasset",
+      "bytes": 2011,
+      "sha256": "8502666e004c0b5c35154b7464b441013c705eed34c3ea749f17c36c96558cf7"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/4/4A/NCNZF2U4ZTZ8XZJNF86FNT.uasset",
+      "bytes": 2009,
+      "sha256": "5fd467498618623173886f91ea74e8e2a647fb4eb05887dfb71b36602364b49b"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/8/05/U8OLLG133BEQMR58UPHM3P.uasset",
+      "bytes": 2009,
+      "sha256": "ce6528560be9a7d4a162f899701bf0117c3aebce4a53ca8b1a4974070bde602b"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/A/KP/VZTB4WP3P1L1F1WL9R6XLZ.uasset",
+      "bytes": 2015,
+      "sha256": "03f8cff85345b9cd9307106f09dc44109abea9c061343ceac9ad9e118e377132"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/B/AN/0Z4D0BFPHEXAYK76DY0WLL.uasset",
+      "bytes": 2009,
+      "sha256": "cf3a8b0b3a498efe6e49e4c5dae12833aefdd9bf87663ee35f6a210e847588b1"
+    },
+    {
+      "path": "Content/__ExternalObjects__/ThirdPerson/Maps/ThirdPersonMap/D/13/KQB15WT334LUGWVAUX80XH.uasset",
+      "bytes": 2011,
+      "sha256": "d98ab61e02eafe51722506d3a0382ad21976f47e2290f539607fb3ba9d71038d"
+    },
+    {
+      "path": "Content/洒水车Demo.umap",
+      "bytes": 1531,
+      "sha256": "53eef0363bc3b5b7159f38e0cbf425e1c9fd045fc3ca998b969f2fd5817bbe26"
+    },
+    {
+      "path": "Content/洒水车demo/蓝图/BP_CarPawn.uasset",
+      "bytes": 37481,
+      "sha256": "0e00819fcc038d470f0ed126a44aac9701b5cc80929576c76a34b838fba6f405"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Brick_Terracotta.uasset",
+      "bytes": 95109,
+      "sha256": "bc9ea7551180cc76b6879ddb90fe53ba99fa09924f6f78be7fe6f2f7c3d3ce74"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Frame_Bronze.uasset",
+      "bytes": 89365,
+      "sha256": "379419a47f6ca5c73cc8d118c3e450cecd3b16844c053cdb464ddbd59578dc63"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Frame_Charcoal.uasset",
+      "bytes": 88966,
+      "sha256": "3b89cc74808d03d1e8fe1d0705b189a0e8a088e056170ea2144864b0a5ed53ed"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Limestone_Trim.uasset",
+      "bytes": 89892,
+      "sha256": "bab32175bf8d24b2b28ae20247c193451e4782f34b05487b53a9ba2e0dc2387c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Shutter_Sage.uasset",
+      "bytes": 89468,
+      "sha256": "f2d94d08ad43059b856ba42749996ea4701747a1d57dfbed41542a896148d43c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Stone_Warm.uasset",
+      "bytes": 89692,
+      "sha256": "064d209e69b928c281cef7ac17ff025b64c90d34b7267c9967fc809cf5ef1f78"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Stucco_Cream.uasset",
+      "bytes": 89820,
+      "sha256": "f4dda9e94ad7738a5a749c0296262748c739e0944777269c5e8e4c2d92866fc9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Stucco_SageGray.uasset",
+      "bytes": 89838,
+      "sha256": "25fc6c69ef800cd535aac4d4670daf83340803470a3565dd0a77a7cb72962d92"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Window_BlueGray.uasset",
+      "bytes": 89575,
+      "sha256": "480177833e3417ca7f88916e009a87514569bee98d01f6c596a3a39d01d399bb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Window_Slate.uasset",
+      "bytes": 89377,
+      "sha256": "1241723f9108896104de252fd82729becf332008a5029d6ae1e1591efa4fb32e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_F07_Window_SoftGray.uasset",
+      "bytes": 89747,
+      "sha256": "db15bb3fbcc9b1a13c15dbb31458cf60c0de4306dc735b0711d2bf0e3cc78ba9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_G08_ClearGlass.uasset",
+      "bytes": 89847,
+      "sha256": "0d3eb0c0e222fe364f48323f604f5e60efa2416d65449b3b2f1d3b443912ec55"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Asphalt_Dry.uasset",
+      "bytes": 89050,
+      "sha256": "4c01b98b8a67a726dbd7064c2b9f926ce93638dc16f262660569f8de01732985"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Curb_Concrete.uasset",
+      "bytes": 89678,
+      "sha256": "8716b3710832b9201296defa3866a82708b75619c9a56b778a2afce7a7d4aec6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Door_PaintedMetal.uasset",
+      "bytes": 89037,
+      "sha256": "c6a1df18ae8e9393c944791ea7df2c978d2aff1925d9f54a7de259f890f65c96"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Lamp_Charcoal.uasset",
+      "bytes": 88599,
+      "sha256": "bf0cd9effe4e62e7ebf394aa3f83e71d785a8c0570c4646b9f19432cc312f4d5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Lamp_Diffuser_Unlit.uasset",
+      "bytes": 89998,
+      "sha256": "8c5e640546c7af559738c2b1ad5632c209e70fb59cb79915d556d05907950ef5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Marking_OffWhite.uasset",
+      "bytes": 89943,
+      "sha256": "0a2b83fcf3179ac6943e0659c60777a1e7857176321a87efa098f4c596b81207"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_River_WaterPreview.uasset",
+      "bytes": 89810,
+      "sha256": "8e996d46f61d513a3c0a873bfcc07c1c0b62f1a0fa3ab6b6f12c9c3ede7c18d5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Riverbed.uasset",
+      "bytes": 89279,
+      "sha256": "d5ab537e76730701fc97e719bf15591422a73a3238db83315a8135b84a443fb3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Sidewalk_Concrete.uasset",
+      "bytes": 89897,
+      "sha256": "01b005a314ebd118fd94b09105cc189dd0b7954bc4950194147712943970bda8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Terrain_Base.uasset",
+      "bytes": 89659,
+      "sha256": "bb8e607d62404f318971b1b7ee108321a8f22ac6760619cef228ca9836604b96"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Trim_Stone.uasset",
+      "bytes": 89677,
+      "sha256": "153f5a027c35d171e2eef7b3554a8a671eddc3feaca0ba068917fbe99c091974"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Wall_Ivory.uasset",
+      "bytes": 89688,
+      "sha256": "013c40076218ea7d700a1b69018ee447efc405d98de772bfa422c88277bb60b4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Wall_Taupe.uasset",
+      "bytes": 89644,
+      "sha256": "b4f89a6650f4a93079885cb4ce05c5007fbaf40b11e20a26a7c369c84a15a7fc"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Wall_WarmGray.uasset",
+      "bytes": 89739,
+      "sha256": "2db179ccd078cb65343bb55de1db8766d184ec6c6b7ef0812c7d3c550a33a9ee"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/M_MS_Window_Opaque.uasset",
+      "bytes": 89262,
+      "sha256": "2e99c039da19f8b3adf372662cd52aabe3a8480ed21d7f1285bb224846dd5b94"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankCap_East_North.uasset",
+      "bytes": 98327,
+      "sha256": "3250ee38becd4ab75fdf2d77630ec96b73a845a3a810f4fb784c30ca3ff1c7b3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankCap_East_South.uasset",
+      "bytes": 97756,
+      "sha256": "78df12f5a9bff9d57962dea2ffe4791332a7e4a7573cf52a6f2ac1c9be98c5dd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankCap_West_North.uasset",
+      "bytes": 98314,
+      "sha256": "3b1c4ec1fc0e030c4b22efa7679c5b3d6e59b1e9e2a8451f51ad068e5c80ff23"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankCap_West_South.uasset",
+      "bytes": 97752,
+      "sha256": "7302dee1b7403e0361a4779ca14928c7c575d6ce886f0a006971f2862e11099b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankRailing_East_North.uasset",
+      "bytes": 141208,
+      "sha256": "91929e8979eef4580f0be1bc8b928228576bcd160279da4e90201c7336f3e6a1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankRailing_East_South.uasset",
+      "bytes": 112548,
+      "sha256": "a3f573033720229d94b678d81dbe8b41417c739081405371d54b9e8da5304d0a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankRailing_West_North.uasset",
+      "bytes": 140945,
+      "sha256": "b02cc37ee6643b0f31b156c4a9f714a228e5feb5189ce9022049638e1aada269"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_BankRailing_West_South.uasset",
+      "bytes": 112994,
+      "sha256": "2cc8c1b397da326961160f1f223b5baf9131efcf0a31bd67cfd17b4abd4d21c8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Corner_03F_Plinth.uasset",
+      "bytes": 107288,
+      "sha256": "ae368ab81dfbbab7de061c6971516ec94342187785b2257c759be58c2ef4c2e5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Corner_03F.uasset",
+      "bytes": 140726,
+      "sha256": "a4b84ab938a2db0ba54f2eaa14085d424cb12452a5c7e16a3f4a2cd9e733dfcd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_01_Plinth.uasset",
+      "bytes": 97417,
+      "sha256": "4c84064dc0baf5df10e1aacabbf73a0ec96845acfdb07b8eee8394c116240877"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_01.uasset",
+      "bytes": 103433,
+      "sha256": "485e95bf4439658202ba915a16770e4be0b76250747cee943d6c4d9742e4d811"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_02_Plinth.uasset",
+      "bytes": 97413,
+      "sha256": "2b9867b19da31ad776cf96fe548b15eb89e728911489f6059cc04682d74005f3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_02.uasset",
+      "bytes": 98953,
+      "sha256": "62ec70ac2dcae47376fd5bb81a671b02014df218840f0e52086faf0a24aa312b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_CityExtension_Plinth.uasset",
+      "bytes": 97666,
+      "sha256": "8c121384c33fa5daebf21e03114fbc85dccef7913ddbfa70dd09d59c23a480a7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Exit_CityExtension.uasset",
+      "bytes": 99642,
+      "sha256": "9fc325475c2843b4fd6aae4364cacecbcf1ddcbfc60708c625ac3c991b454e04"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_01_Plinth.uasset",
+      "bytes": 96155,
+      "sha256": "ae7ee2a910fe6250a08da64b740a5da78010fe83d65c87a6046468f9665b9fb9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_01.uasset",
+      "bytes": 102154,
+      "sha256": "50057917bb3ae00717999a1080f3343bcc4c5e5110b4397d367cd95a945813b0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_02_Plinth.uasset",
+      "bytes": 96263,
+      "sha256": "18c86820aca6c184d289d9316eba6642ac6866f0199351d76fe118f99e5c7c16"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_02.uasset",
+      "bytes": 102887,
+      "sha256": "2b2903fee32bf90dea2e5e0bc774cb80ef3ad97f2bcbcc1e0947ceb73cda9096"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_05_Plinth.uasset",
+      "bytes": 96193,
+      "sha256": "3176edd10fce3bbe7d572b6cc3aa894d1ac66522a686bafe35ee2ff067c51178"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_05.uasset",
+      "bytes": 102262,
+      "sha256": "59494d2b7d3ccd9b47ccf1c79b6790e162d288c73ff7217b7a30abb7475a991f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_06_Plinth.uasset",
+      "bytes": 96243,
+      "sha256": "4520ac016f8796fba0841a189cf965c0ce4e7db2073b5a975e54dd8f6db6b4f9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_06.uasset",
+      "bytes": 99311,
+      "sha256": "eb7c10d0e7315e17ef33284f1500cae213b8570411ab2cadcaeddb1f20b2db61"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_CityExtension_Plinth.uasset",
+      "bytes": 96357,
+      "sha256": "7814bc9b7821f80acaabff52e2c22275c585cbf4133dd0d3147b02bb7dd95cda"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_L_Main_CityExtension.uasset",
+      "bytes": 99084,
+      "sha256": "d9ab59fefbd2e5f4be86b8ed13f95575a822372ad4a96fb93a0cf7c54d85cdd9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_01_Plinth.uasset",
+      "bytes": 108060,
+      "sha256": "f0e75b84bae999f14c14f47030d2d782b69aebfb0ceea3d4015f00bfaf3c6c0d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_01.uasset",
+      "bytes": 117135,
+      "sha256": "54d5a8c88ae7487af8b3cd23a23648e9c0cc65e7f0006c28ae737893b8642728"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_02_Plinth.uasset",
+      "bytes": 108173,
+      "sha256": "1f2202e3907f986e27b2d1a81632bf0b346c1fbd4db6af2d40f36ee30f4f2561"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_02.uasset",
+      "bytes": 113179,
+      "sha256": "3b7efcafbdfb811d84dc9af5a5276327ab1129938c41a65ab0b7e695624389e7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_03_Plinth.uasset",
+      "bytes": 108724,
+      "sha256": "998fe9b5b4f1ab2d5e20639eb29c9a159ae7d051b5ef976e34fad9bd282a364f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Corner_03.uasset",
+      "bytes": 117805,
+      "sha256": "edbe352689b75082e6b313b76f07d78c5c835db941a2e4257e00e385b5b548b0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_01_Plinth.uasset",
+      "bytes": 97422,
+      "sha256": "ea6fd7ae16190451cc6998631f7477f905fab467fa139825a419244f2f0c1fa3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_01.uasset",
+      "bytes": 103279,
+      "sha256": "9dbd9a429bee73fd2c3537cb38b2784f0114c82432a4bcdf548642f80f9f73f3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_02_Plinth.uasset",
+      "bytes": 97384,
+      "sha256": "ebfda6a761de14aa344c65493c82029cd9162f30bfee1d80c5be064c55a44b20"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_02.uasset",
+      "bytes": 98956,
+      "sha256": "bb366b3aff57333d10654d5b1c259472faff2073f22dcc861aa0a4fadde99810"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_CityExtension_Plinth.uasset",
+      "bytes": 97670,
+      "sha256": "e0fd7b4bcee76c09cc946d6e1fa072464be95bc81612b03089f56840958f9800"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Exit_CityExtension.uasset",
+      "bytes": 100314,
+      "sha256": "58938c03d04d67ea4c7e612ced08485288d01d58cf81ef6f32fed73e432af4b4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_01_Plinth.uasset",
+      "bytes": 96169,
+      "sha256": "6371ad41e661dabc44c745d52ef25f81458245554abe4d3cd731e95337aee034"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_01.uasset",
+      "bytes": 102665,
+      "sha256": "67fb1514881b70ea89b2b4fa337b35777b745394f7b02bbf5cf79353848d76e5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_02_Plinth.uasset",
+      "bytes": 96275,
+      "sha256": "2cff4a7d751354cfdb28a7ccefcec9ff13a120ef7673f889de330922405e8eb1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_02.uasset",
+      "bytes": 102624,
+      "sha256": "3a0cde9d6918a8af5cf98825359d089d016637fd0e826f80281e3428679320cf"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_05_Plinth.uasset",
+      "bytes": 96176,
+      "sha256": "47efa92bbc7a62d9d2b8a0bac9361759f8ba35c610787863113074114b793876"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_05.uasset",
+      "bytes": 102741,
+      "sha256": "c7cca75d5cf3fca54da4e21ccbdcaa925b8b540e84739d8645e5d4f210b4af11"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_06_Plinth.uasset",
+      "bytes": 96251,
+      "sha256": "4f1924ccd6f866dbe2fd7779077af9424c545eb2507511418b6ed186efe19de1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_06.uasset",
+      "bytes": 98533,
+      "sha256": "31cf15f6257fb9ce4aea223708b283783f6838a5b59ecc692e8be5e0fd224081"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_CityExtension_Plinth.uasset",
+      "bytes": 96353,
+      "sha256": "7f1c37c9d954da3fb93816f65ce635bd22b9297be83646934155903addb553ff"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bldg_R_Main_CityExtension.uasset",
+      "bytes": 99726,
+      "sha256": "e88beb6fe07002829949b0ea1d42ada2b60a7a02a89b676f619b789c4efcea60"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Abutment_East.uasset",
+      "bytes": 97174,
+      "sha256": "a15136d4192901d9009c7c27023d8a7076c23932e2a81c2eb7c3edb13ada0e8b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Abutment_West.uasset",
+      "bytes": 97174,
+      "sha256": "5edfaa9e4dddc7649f4f252700d155ade4c134063de85da6dd190b6f1b30ee45"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_DeckStructure.uasset",
+      "bytes": 97136,
+      "sha256": "909869f92dc149679b33646899889a12b2a426015152da53456f671c2d070967"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_01.uasset",
+      "bytes": 96415,
+      "sha256": "22f399ea3b5c8773cf00538e381ccad68f1c398077496f7b233b744b2b4b01d2"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_02.uasset",
+      "bytes": 96414,
+      "sha256": "b3041af911a4177cc94a50172b2d415f76153786afa6af19116a1937b4734341"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_03.uasset",
+      "bytes": 96410,
+      "sha256": "4de214fbe793e954ffae6b3864e559d7c1c2526efbf1dea5e0c835cd4020e006"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_04.uasset",
+      "bytes": 96418,
+      "sha256": "e277bcaf03156d19299ee1145220232bf69608d095be2dd3835e661a920e0a53"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_05.uasset",
+      "bytes": 96410,
+      "sha256": "1324efd7400bf737dd55c178f4207b362bc5d5ed8b051dbb9950faab5fa196cf"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_06.uasset",
+      "bytes": 96414,
+      "sha256": "2d32c74bf590e90edea4e7d5d92a93934d845623dfd1e5579c215eb22e41b1af"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Girder_07.uasset",
+      "bytes": 96415,
+      "sha256": "5241b9312c29c88484a8e05ce01b14f65c0f605e66f301ed5e21953b5f00d8c9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_OuterEdge_L.uasset",
+      "bytes": 96789,
+      "sha256": "6ef37410bb6356d8c16e8dfe0672b46f08b52268c7d4350c153d7417bf97b796"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_OuterEdge_R.uasset",
+      "bytes": 96792,
+      "sha256": "20dff5aec6a13171ee528bf8ac1ca86d0663eb04eb428f6d2ff79be50ddcd46d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Railing_L.uasset",
+      "bytes": 112930,
+      "sha256": "8be3cd635ca61c3c591a42123b021e0fac3d3d0f1508bb43d35ee43d11e64b11"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Bridge_Railing_R.uasset",
+      "bytes": 112860,
+      "sha256": "f088fb4a078e73d70e87aa7c1d122c5d5171d6fc945f8308c4a59b08e793b6c1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Curb_L_H015.uasset",
+      "bytes": 125816,
+      "sha256": "69cfdab7821a2174bba867b748c1f28048b51ea31777dd1cd925dd43b14d4685"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Curb_R_H015.uasset",
+      "bytes": 126038,
+      "sha256": "96ab0c8806ae18a82075099fc547b261048273df9d261d2b046033a2ca1f5222"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Corner_03F.uasset",
+      "bytes": 100870,
+      "sha256": "6bc34a96ac198c6b00bbf7fb8e278739b722a38746d5fad7a7e69a74e9b643dc"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Exit_01.uasset",
+      "bytes": 105424,
+      "sha256": "0fd1d123014e6b347cc1cab504d108a331de5a7dc31b66e44a7e99e06f703dcd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Exit_02.uasset",
+      "bytes": 102319,
+      "sha256": "cfea61ce8891c397c484f944a6c49b45bc290f86706a3a128f0e0804367d3cd5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Exit_CityExtension.uasset",
+      "bytes": 105469,
+      "sha256": "d6059358427bed5555f6ca1e268bb504bb36da4a100feba3aa1a324b3f56c13e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Main_01.uasset",
+      "bytes": 101530,
+      "sha256": "25c5809595a8c417af6d89675f95de1503ca6c82dff201b72c1cce59a4a9b216"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Main_02.uasset",
+      "bytes": 104048,
+      "sha256": "40849f64114713ede7636253e251ae86cbf55152b1017b04d8bd03d52061c5ad"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Main_05.uasset",
+      "bytes": 101526,
+      "sha256": "f9e6cd71874b6daa4ee128462001c10da6e0c07869200e13b90a9d92ca539d30"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Main_06.uasset",
+      "bytes": 104049,
+      "sha256": "e96c5f601197c982eac11f2c329d4e88b995c248c5552d3c97ec507ced9b8b24"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_L_Main_CityExtension.uasset",
+      "bytes": 103489,
+      "sha256": "d6de48fcc8692b015f3447ac1c5ea2f9f5196999ec7aa46c06d3b827e51ef863"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Corner_01.uasset",
+      "bytes": 102680,
+      "sha256": "a0860d1f46e64d8b403dbac299486a8b843280ba7070a94487d29d0497870a29"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Corner_02.uasset",
+      "bytes": 101166,
+      "sha256": "f2a987fd2370184a5183928e2c8775fd4d776c7a29782ac8497e94cae6e83446"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Corner_03.uasset",
+      "bytes": 102884,
+      "sha256": "e04ae3f40a56c925dc493aa8d98a319e7e5ba5bab9ff6c24a56a92d283b2ae99"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Exit_01.uasset",
+      "bytes": 105292,
+      "sha256": "4b58f4628dc74fbcc1768d8e2a8baa9f11865b410bce415719b6dfb855015c78"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Exit_02.uasset",
+      "bytes": 102293,
+      "sha256": "faf079282c79072ed4c676d2ebd81f1db4b2a62d5eca10c667c9ed827f24b0fe"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Exit_CityExtension.uasset",
+      "bytes": 107643,
+      "sha256": "903da1ce371b714a8e75c90f36dee03a96cba9fda3ed4081e4aed1209a2104f6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Main_01.uasset",
+      "bytes": 103792,
+      "sha256": "afcc6ad35f08c2f31021d028db74e0b3b862e59986df84b0e5b51aaf5a1572a3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Main_02.uasset",
+      "bytes": 104337,
+      "sha256": "1ec0e9f711f467fa1c63338f66c3830b3322510ad2b99bf9e584ae5010325784"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Main_05.uasset",
+      "bytes": 103686,
+      "sha256": "1351c9fbd3383b943c1d8150269e4009522f67d60187c62943bd4d5f739f8d3f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Main_06.uasset",
+      "bytes": 102065,
+      "sha256": "7ce7742f2b868acf86a12215716e631fb98db6d2eb5c29a5ba117525937b70bc"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Glass_R_Main_CityExtension.uasset",
+      "bytes": 105899,
+      "sha256": "b3477cfd31af5a5df0d5ee450a81f273b673ee0a4a24d2b94f088c5e58ef6167"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_-0_19_0.uasset",
+      "bytes": 97453,
+      "sha256": "5df481bc0b2f14168db683089a93aa8f7a730245d39e7495a685b7f57538d870"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_-0_19_1.uasset",
+      "bytes": 101051,
+      "sha256": "a25902b4933d8f8e7b26651a1c0ac0e7e73d9e3e82e0088fe152ae0989caafe0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_-0_19_2.uasset",
+      "bytes": 122294,
+      "sha256": "8bff47632c4457fe39eb0c2d59113fe73ca51051f6716cbe74a47f668454658e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_0_07_0.uasset",
+      "bytes": 97434,
+      "sha256": "80165c101cf82697812abbfa177db4c278e3f01fcd2e41019f8acaeba3689d30"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_0_07_1.uasset",
+      "bytes": 101035,
+      "sha256": "a6e7c3867fae631ba3ae976c395ed65fe5a5153a80b70d47d397d922c0c8c895"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_CenterSolid_0_07_2.uasset",
+      "bytes": 122315,
+      "sha256": "6634adaa91bbe2793eeee0c37327e35b13309f2aacb82cc94d22af99ae052353"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Crosswalk_01.uasset",
+      "bytes": 97894,
+      "sha256": "7338f05e3c9e776af51c46d422e806d9e46d978d8a3e9cf38a9ea094b392b3c5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Crosswalk_02.uasset",
+      "bytes": 97900,
+      "sha256": "98449f89733c5ac98ff6c40fba48bce5e6c0012e65bef4029089f8d0d06c32e8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_00.uasset",
+      "bytes": 94674,
+      "sha256": "15683abe8af3cf5c5ea4feca95f1290e76db90186c010b0fa829c130a4d710fd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_01.uasset",
+      "bytes": 94686,
+      "sha256": "2808feca73ed922ffcc2e5946b841b4f46ffc541855e7cf4c7e77e23e1b89a7d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_03.uasset",
+      "bytes": 94690,
+      "sha256": "e9138681fcfbc66996b1c5961b13b7f075b75904874ffd655171a282699384a7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_04.uasset",
+      "bytes": 94679,
+      "sha256": "0632f6fbf10ddd3002746c98ef7d6f55561a0290be483a44f786786c4ec606e9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_05.uasset",
+      "bytes": 94685,
+      "sha256": "1adb76298f645fc2d98b2d92fa2f001b373e8616b9dc5e3d3dbaecb66040152b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_06.uasset",
+      "bytes": 94695,
+      "sha256": "b5fbc397ff19b4dd8886ee091391d0b790fa911462ba4a7f8bf70ef91f2061e0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_07.uasset",
+      "bytes": 94678,
+      "sha256": "6761d8a6d7803af621950a3982f5fe39ff96c951c4377865a30b088b9f0951f3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_08.uasset",
+      "bytes": 94677,
+      "sha256": "de0eada9f69d1eb2aa60ffa96bd9745e30f7a1942fa1f42753762f5651839ead"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_10.uasset",
+      "bytes": 94668,
+      "sha256": "23434716d94667423c48055518a17c65886def358f5a1070c89045424aa30d63"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_11.uasset",
+      "bytes": 94688,
+      "sha256": "0bafcd02b19b6092313167a93e3b679a5a4dcfcaf5a65e0a310a6a5fc00b4463"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_12.uasset",
+      "bytes": 96477,
+      "sha256": "75206132abcf2b2ffcde507d3a75ebb68824e8e5597403179e7c34117a296898"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_13.uasset",
+      "bytes": 96423,
+      "sha256": "b6f92bb9b3d259c39e464a711bcb27240f00235759640cd3e580fd9995b376ea"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_14.uasset",
+      "bytes": 96387,
+      "sha256": "c8b1503aaf40bde64977158b6945bd00c319f5825e57a218a90736f7de052280"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_15.uasset",
+      "bytes": 96403,
+      "sha256": "46a5d0455abaa171bc95e76eb02ec90ed6f4c75c316ea458cf4da125fc6a9ec4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_16.uasset",
+      "bytes": 96421,
+      "sha256": "217dd26d719afbdded13844264e674d7ed22d4d8f0b88040804dc8755c3589d8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_17.uasset",
+      "bytes": 96256,
+      "sha256": "6e3a49feed1351b376a91788fbb715afeda665801a27193b4391aef253ac9b4e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_18.uasset",
+      "bytes": 96214,
+      "sha256": "cb02931fbf74969063fa924b362a7788affac572236fa27c29923534ea0d2bcd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_19.uasset",
+      "bytes": 96231,
+      "sha256": "1d6c75f16cb3c073d13b2dfb68bb50d25fb641cd333c69d28e7f450cb813c5fe"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_20.uasset",
+      "bytes": 96215,
+      "sha256": "2cd5e58f63db19e2e3c5e6d3ffe90178efcc5113ebc40a675f5a997728397552"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_L_21.uasset",
+      "bytes": 96243,
+      "sha256": "6e7d299236e1c8f1bef3cb37b6db649c83beb4e1add2f3ba9b967cb9488a3ae8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_00.uasset",
+      "bytes": 94679,
+      "sha256": "623dc34344e1a91e7bb8e54e52213a05eabcd150e97da77304f923fec3176ebe"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_01.uasset",
+      "bytes": 94685,
+      "sha256": "0fa87da62c553f57c410d641efdc12e06d142db3d011a4cab1c6f071d5e4b8c5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_03.uasset",
+      "bytes": 94686,
+      "sha256": "85cb765939aa9fc30cb62183ef4a119d0f04fa1a9936e74a6f6206c48d0b6ae7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_04.uasset",
+      "bytes": 94679,
+      "sha256": "772c2fc12783de6d1e2f1f85abe2e2cc38ae59f1352245745d18eb04ddc8ab9a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_05.uasset",
+      "bytes": 94685,
+      "sha256": "1edd1a103fa5eaece191cf660b04726f9cdfd73863906dbe01135a6bc59f8891"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_06.uasset",
+      "bytes": 94696,
+      "sha256": "4072c07bbc0bad7a97890db40a9a393ea20465d82323b2a370b68d3de609097b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_07.uasset",
+      "bytes": 94678,
+      "sha256": "46d6da28fabf59c745d8ba7cb7019d08bf4606f6ccdce8045f8dfed97e6b4aa7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_08.uasset",
+      "bytes": 94677,
+      "sha256": "f34edcc215eff673f4d33492a6db5bbc187aa33562aa73730bfe9db51ac90626"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_10.uasset",
+      "bytes": 94668,
+      "sha256": "c52c2335e4cc4b9aa6a00013f44c5134219102de683979ee7895617cd185cb7d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_11.uasset",
+      "bytes": 94688,
+      "sha256": "d6162b854324a64a40e0369dda54dd3e331d1a08e1412918ed2dc68849771f08"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_12.uasset",
+      "bytes": 96636,
+      "sha256": "8b08ca7eb4ecdaa6bb260c38876c2d1802f8f1bc791b4bdcc07299b956440cff"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_13.uasset",
+      "bytes": 96634,
+      "sha256": "c42d98d5223fba82331a430a7ff2dc7182d09d2742af2ee0c1d19c8b46701a69"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_14.uasset",
+      "bytes": 96575,
+      "sha256": "99e7d9b297894ef86a01a2b54f09ce460ec7af173c6c7aa6fde308078213740a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_15.uasset",
+      "bytes": 96626,
+      "sha256": "ab45bd8e9b8959f1161cdd077d1b6f4f5f79222139de77fb03ca6193d16da955"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_16.uasset",
+      "bytes": 96575,
+      "sha256": "1c751d8be17381e70ef09caae5eea000a23cf55b90aa3ba29ae07c02c1b8c3a9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_17.uasset",
+      "bytes": 96282,
+      "sha256": "b6a5aebecb95f2974f3d16872717dcaecaaf8be0ffc679b593258ec317b2bfaa"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_18.uasset",
+      "bytes": 96211,
+      "sha256": "f05e88299eae8531cc2656824e8abbb0faeeb1b8353d915dc9b5154691b360a8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_19.uasset",
+      "bytes": 96191,
+      "sha256": "39fb673bef716004da2ae133ae6749b37fc04251828dbf736b519ae437a7bf4c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_20.uasset",
+      "bytes": 96221,
+      "sha256": "8a442b42e5fad5a2666921db88b8b12b21bafc6853043da6199957dce3f9d92a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Marking_Lane_R_21.uasset",
+      "bytes": 96219,
+      "sha256": "fedcf62e73b2177555bca223c874f251f624f08031accb3a63f389c06ac90226"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_River_WaterSurface.uasset",
+      "bytes": 99411,
+      "sha256": "cc10c08e8ebdb4e76ba112180108444840936d01683640838399b11cb8522fc9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Riverbed.uasset",
+      "bytes": 99163,
+      "sha256": "1858a0e9d9028f0635b115d1178fe80b51d5a47179758fb09d46de32a052be49"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Riverwall_East_North.uasset",
+      "bytes": 98326,
+      "sha256": "43170d8cabf45750dd091b0f1c901f7b02601cc545c322eb68e19209917db0bc"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Riverwall_East_South.uasset",
+      "bytes": 97762,
+      "sha256": "58d312a220d2e007b1379641b763bc65a4b51f8a8c0c6e2eddc204a5acc97b36"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Riverwall_West_North.uasset",
+      "bytes": 98325,
+      "sha256": "e9d7e1b1b63f0ed24d9e9b6cff11184bd62c66d31e740a9a588e68687e2b3885"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Riverwall_West_South.uasset",
+      "bytes": 97756,
+      "sha256": "8d8d1793a7a1e8995c92ddc26b6da6a5a9bdb1d2602a11a1a2fcd895fb5a2caf"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Road_Continuous_130m.uasset",
+      "bytes": 125307,
+      "sha256": "45d17714965935b1e5becc395c030d554bd55ad8887a401f45aab16e1b1265e3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Corner_03F.uasset",
+      "bytes": 107196,
+      "sha256": "c1ed2801c343f579851607e488123a6be88776883a57be06950717a582c2e7d6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Exit_01.uasset",
+      "bytes": 96930,
+      "sha256": "49d015f795c30732b55bdc4e50e35f1578cb0df3cf594716787384eaa218c31a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Exit_02.uasset",
+      "bytes": 96860,
+      "sha256": "58efbb7b8471c84eedb0c70d6fe25e46c6b7d9024f25f377dc897618a05fc6b2"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Exit_CityExtension.uasset",
+      "bytes": 97183,
+      "sha256": "b739d37b3aff69873e8e2bc06a5b1d9760637c1c31edce5252417e3b7c1017ef"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Main_01.uasset",
+      "bytes": 95759,
+      "sha256": "3c536e043f412927c247d23dcad7fed9d4b4fc6590007966ea51d062f3b042e0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Main_02.uasset",
+      "bytes": 95797,
+      "sha256": "78bdaca9b9957065096d581a193c67e5061726b49673face4ad33e980f955bdb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Main_05.uasset",
+      "bytes": 95730,
+      "sha256": "fb897169544893018482e7e7579b87a1c9c1f8eecc5a4e7c05df1bd079334ac5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Main_06.uasset",
+      "bytes": 95828,
+      "sha256": "759f6e846da04bd0288118235ddf23e4ccc832a0bb04036294501fae04173ed7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_L_Main_CityExtension.uasset",
+      "bytes": 95885,
+      "sha256": "e514b8a94b80de484cb65087d8efc6c1369f25f2f3d494479b08f57d9c0f353c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Corner_01.uasset",
+      "bytes": 107462,
+      "sha256": "261e44f2c821563307579a61e7bcb6d8a749c827e4a2882aab1826b3f51bc106"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Corner_02.uasset",
+      "bytes": 107558,
+      "sha256": "11a272017299032ff68310b9b8856e025e130795f16f9562aad9a64975072e09"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Corner_03.uasset",
+      "bytes": 108129,
+      "sha256": "3e662c5d67879583b3eb1087704f6a75aa706004adfd495a5fbd3efccd1777ab"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Exit_01.uasset",
+      "bytes": 96946,
+      "sha256": "759c80def4bf039e821cafc33e32e9b01cbda4992e01f5aa4805d3d7c13e7a48"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Exit_02.uasset",
+      "bytes": 96882,
+      "sha256": "2195de6c0ad9708961bcf475524b02ce30518609fc0bd45a66c4260628a9f9f3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Exit_CityExtension.uasset",
+      "bytes": 97176,
+      "sha256": "a9affa39bbc7b529d9ba66f29e47f1067c26e2e85dca92c6aa28fa46425d3d9c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Main_01.uasset",
+      "bytes": 95785,
+      "sha256": "e98dd4cdb7502c27fb3c8c1819601b72f60606b5ea896d44fa57e27995a5a24f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Main_02.uasset",
+      "bytes": 95802,
+      "sha256": "3c2dd3ecc2275bdf481db2912ed5404f16c706315fbe8d4fe41f1e08b0b8c3b5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Main_05.uasset",
+      "bytes": 95740,
+      "sha256": "512ea11e85324e574bd0edbc17e4a4128b0f39a77b8a7025ad4a79c66e6b5bc3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Main_06.uasset",
+      "bytes": 95834,
+      "sha256": "f14b2a96963ca35e56374f48b01bc9889ad1bd407212a0eb0c768782badf6458"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Roof_R_Main_CityExtension.uasset",
+      "bytes": 95885,
+      "sha256": "70df3c5c2d1bdd65fe54f9e86bf29af90ef22bfd4e8a618485c73b659849d8d3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Corner_03F.uasset",
+      "bytes": 214996,
+      "sha256": "d35379393677652cb3c1f4ec47f35347922692337c368eeec6aabb21babf1277"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Exit_01.uasset",
+      "bytes": 144528,
+      "sha256": "483433c1c0404e49c7654cb9b559b8f0625142bde93bbdce86748575605a2c63"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Exit_02.uasset",
+      "bytes": 130368,
+      "sha256": "27f1d23a9b675254c84f10c4fc5ee6f436e7b50e8a62520ba058a549e5553983"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Exit_CityExtension.uasset",
+      "bytes": 144064,
+      "sha256": "e2fb4e23d26ddca74091d48e5d22d5d131a60ee6ade316896638db42cdb0b7db"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Main_01.uasset",
+      "bytes": 128090,
+      "sha256": "11ab1aa44e35ac2beb1d594f6ab58e79e32195835a366cbe4b4e125b2352536b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Main_02.uasset",
+      "bytes": 138547,
+      "sha256": "c846f66d2cdc5ef1003c414ef268874cf7910b3fa6df1130687ed6d8bfc64a3b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Main_05.uasset",
+      "bytes": 126235,
+      "sha256": "32d8f9ae823121fd72a2c1f0c948c8f6397359014199fcb1edfec8469154b651"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Main_06.uasset",
+      "bytes": 138613,
+      "sha256": "1ba401aa131650785d47093e0b526b9ea9f4983ad64eb080191637209714a6eb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_L_Main_CityExtension.uasset",
+      "bytes": 136857,
+      "sha256": "99234b496e5011050fa230605946a93b18fb79eb35258f5c8ba6ca8897667728"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Corner_01.uasset",
+      "bytes": 224218,
+      "sha256": "a1a1bf406bc646b4f8a5657e506f0c5731e2ddd05eed2ba4fab60b99706f24b4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Corner_02.uasset",
+      "bytes": 219056,
+      "sha256": "aa3479d0ca86cb188a335b49240f7e314494f2780d3585c5b72d54da7ed64b83"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Corner_03.uasset",
+      "bytes": 226627,
+      "sha256": "341bb430670710ee5d817ea04dfb6b7e7437da97f9016c1a572994259162f16b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Exit_01.uasset",
+      "bytes": 145582,
+      "sha256": "3b4cb8ec286418ebe29b12fff30a59d15b5c3fd7626f66dbdaecc5d29bfa9f7d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Exit_02.uasset",
+      "bytes": 129462,
+      "sha256": "3c4f02a7c1d671a4d429f7118a28ef27978d9260b0d57f3059bd999ae4091afe"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Exit_CityExtension.uasset",
+      "bytes": 155304,
+      "sha256": "4a9484bf99bc5269e1605abfd83d7a680f498e030795492ceba5c70379b4a1e7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Main_01.uasset",
+      "bytes": 134707,
+      "sha256": "31d26d71cc5665cb8c36b4d123e1d47530a2a406a12f0dc8266e3725456cc639"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Main_02.uasset",
+      "bytes": 142201,
+      "sha256": "ff08be15d134e3cb420686e652b4f41f1063c4cb6a072bd4a2ae1097bd31034e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Main_05.uasset",
+      "bytes": 135131,
+      "sha256": "637df445c93b045a04edcb9faeca622466d144e1fc0be1e3a75dc0d03157daef"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Main_06.uasset",
+      "bytes": 130051,
+      "sha256": "383f11fd24367a9ef214969f5dfed75689bdc4bc0a5a77e1f37572fa8f53584c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shell_R_Main_CityExtension.uasset",
+      "bytes": 146115,
+      "sha256": "f379e1b2ac2ab51c73852c5ec6c204ac2f29b9381abb8b7b97730e43635cc883"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Corner_03F_01.uasset",
+      "bytes": 103684,
+      "sha256": "fa6960318d26c764933a7d7af3a7f9b3f740b295995ec8442ab9c9c76acc3703"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Corner_03F_02.uasset",
+      "bytes": 105522,
+      "sha256": "5c9f41a35d01e70dd27a15db2540bbb0918a5876fdbe68c5546febd80bb9c64f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Corner_03F_03.uasset",
+      "bytes": 105671,
+      "sha256": "192c2363d1936e2b1248f37443e3b1c6104ad5998c9af7795227c6ebb4cf9107"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Corner_03F_04.uasset",
+      "bytes": 110727,
+      "sha256": "3b8e94a1e624a86e6c6a65cf4e81342a78eef8ad024f91d03e95c10e37452a2f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_01_01.uasset",
+      "bytes": 105023,
+      "sha256": "a0e5332d0602deebfb25a23bec02583b8b4cf6487af09eddf22d8b131b3a4210"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_01_02.uasset",
+      "bytes": 104953,
+      "sha256": "a0752206ed8543322f862cc269cc3df237257a0e52b9ae68d5fb0aa37d3a1109"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_02_01.uasset",
+      "bytes": 104893,
+      "sha256": "2775ee3f46df053c89dcdbc4883968b17f6d9302eec7487083cd9a7f13668fab"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_02_02.uasset",
+      "bytes": 109985,
+      "sha256": "6879ccd19c908eca2aa50d85612118d6f9e803749283e29008676537f58b2d67"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_CityExtension_01.uasset",
+      "bytes": 110286,
+      "sha256": "33c24c2d60c4bf8195c9a97ae97952d2559f304a9f8151c9595a57e2aed14b92"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Exit_CityExtension_02.uasset",
+      "bytes": 107561,
+      "sha256": "9277876d0e50bb9c2499e3a813276f479a9dd62811b807d7da13425c575e37f5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_01_01.uasset",
+      "bytes": 106367,
+      "sha256": "5160c094ed4fa14faa4e702f1b84803a27e732db78ec8d212ed0191aa91fc679"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_01_02.uasset",
+      "bytes": 101640,
+      "sha256": "eb2d0a5bacabd82445fa4a9a5f42bc20ab81c8052f715fa877451d85303675df"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_02_01.uasset",
+      "bytes": 101551,
+      "sha256": "4dbe5fbfa6a613c644dc721f65725e828dc16152273f105a97df2ca0d799a7ec"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_02_02.uasset",
+      "bytes": 102718,
+      "sha256": "f3421f0bac14e1daed75992dfab2a1ed2289040f99cc0e856244feab79a4a608"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_05_01.uasset",
+      "bytes": 102865,
+      "sha256": "52def381797da0c57f7a53e365683291d3d86ec6850be5773925c344682e4754"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_05_02.uasset",
+      "bytes": 103224,
+      "sha256": "f976b1e1f7aef1996fa0c0fe2e3778adf70bc81ff090859849481ef91729e7ca"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_06_01.uasset",
+      "bytes": 103254,
+      "sha256": "0ea4d710f887c403eb30cd105041ed16d498a5eac7f87aa381c81be3f4a07b88"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_06_02.uasset",
+      "bytes": 106838,
+      "sha256": "09d797f92a93c1b828812d8667f1dce50aa709fac1c34c65ed453a0f25aded04"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_CityExtension_01.uasset",
+      "bytes": 107019,
+      "sha256": "fd5df9450aa3e6a42439d6e4092864cc248f82738eee8167980f049601903fc5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_L_Main_CityExtension_02.uasset",
+      "bytes": 106304,
+      "sha256": "b6c88d7841a985a50176395361ad7d100122e2075d98f5fc4e175867d0f10897"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_01_01.uasset",
+      "bytes": 108311,
+      "sha256": "580e60f86f02720a1155a054673db9d2c4862ec7bb6ea7d80c7e4c9104af7b0b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_01_02.uasset",
+      "bytes": 103643,
+      "sha256": "b15d75b1ae1e9bb666a032bb8060643b9c5d7a8af72c8339b472fac637356174"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_01_03.uasset",
+      "bytes": 105475,
+      "sha256": "a9722c5af1aba3158b54fa205d67b2049bda643d8b2218387c28101e58b1ab70"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_01_04.uasset",
+      "bytes": 105577,
+      "sha256": "c33b13bd59f3d47fe368cf9bb64c0e4281ecbe1923b05bf133de1425380b8598"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_02_01.uasset",
+      "bytes": 103590,
+      "sha256": "12b672354160a8ffa29da0b3b05c0f7868d389927cfa1aac7012afa66f2ececb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_02_02.uasset",
+      "bytes": 105571,
+      "sha256": "d8b271e6a89d238facb01e626f8f4dfa4c5268d2509fe1af6c98a0113bf73791"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_02_03.uasset",
+      "bytes": 105833,
+      "sha256": "091f1c3932fb0cf1ee7be43c07d67ea57ad3502795789c8a1ea01cba1bb9f641"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_02_04.uasset",
+      "bytes": 111106,
+      "sha256": "4d4d84eb7adc2f99d9fdf341d89e2e5921d6f75d3aaf5af15e7410b0aebb3824"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_03_01.uasset",
+      "bytes": 105757,
+      "sha256": "57765dd49462e98850785ef70c8d82da5fd3b18e5b9ca975ee09c296f81c3166"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_03_02.uasset",
+      "bytes": 105914,
+      "sha256": "a431199f08f7bdf76b4ed16037dbd249879db1a863d301614cbf66984a03080f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_03_03.uasset",
+      "bytes": 110696,
+      "sha256": "7230dc02ee78e5c8a1f20745297a78f739034d09e23a7b052ea46e2e1e63fcc1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Corner_03_04.uasset",
+      "bytes": 108242,
+      "sha256": "bbbab0e05af2d44539f786935d25d73b9baeacd827a115d93e665b5ea2ff68c7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_01_01.uasset",
+      "bytes": 104765,
+      "sha256": "3aa9f7f057c4c2ee10208700ab77a13fca28958346eb5cfce9b8645963533165"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_01_02.uasset",
+      "bytes": 110083,
+      "sha256": "d15dd378f03068fda9183fa8ddb6aaa6e56f679b9f64dc8d5c06a8e3e2dcc1da"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_02_01.uasset",
+      "bytes": 110114,
+      "sha256": "f446dcf5b2711fd5fdc02eb165949c7733ab0db4d978b6948b498c8b55b8555d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_02_02.uasset",
+      "bytes": 107617,
+      "sha256": "2fa4b276418cebb02bcd47cf747b7d2692000771b6da5169040ef3d98f6155a3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_CityExtension_01.uasset",
+      "bytes": 107907,
+      "sha256": "98f023a861bdff570d9925e1f55b17a796d0fad1b6715bb35f737074de679df6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Exit_CityExtension_02.uasset",
+      "bytes": 103211,
+      "sha256": "afb294ae7ab8a58d4169198c6de48a5dd8abf37dc334e49dd668bc089b009dd4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_01_01.uasset",
+      "bytes": 101526,
+      "sha256": "0da24be41ced5c261d0480b9915644beb0fbbcf59e54641d6e3d94de81d435eb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_01_02.uasset",
+      "bytes": 102933,
+      "sha256": "5b3deebcb58bf82472c8d024797072716eacdc3ea2f8e0840ac3ec09533db9a1"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_02_01.uasset",
+      "bytes": 102853,
+      "sha256": "1ceb931b3001658fbc17c83dc989edcbe20888faf2eddb125cc79a980078b7c8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_02_02.uasset",
+      "bytes": 103502,
+      "sha256": "6859ca78e8cdae5b837260545f0e1fb380945ecb91f2b36f7d0837362bb56904"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_05_01.uasset",
+      "bytes": 103248,
+      "sha256": "68486d306a8dbc81e4afe6d2c0ecc51f8a3f523fff37bed774d27ca3e3abcd66"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_05_02.uasset",
+      "bytes": 106709,
+      "sha256": "5612793b2b0462653305780eaa0613cbe595a3b5de361e280f23547206db467d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_06_01.uasset",
+      "bytes": 107010,
+      "sha256": "41cd4219e0177a53438bc7613da4dcc41da239c0534dabe5f302942155f77570"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_06_02.uasset",
+      "bytes": 106475,
+      "sha256": "11a04e02f9f47b6c770ff3d7829e53749fea3c76c715186d6ae29120be639d7d"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_CityExtension_01.uasset",
+      "bytes": 106242,
+      "sha256": "660372f91872702224526780ba3f8b610f4eef56a6a0b47201778090884a5069"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Shopfront_R_Main_CityExtension_02.uasset",
+      "bytes": 101572,
+      "sha256": "045e661b98e8e4b7060dff3fbfa019b3a613bc10e93409031b67ff61bb8cd86b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Sidewalk_L_Clear5m.uasset",
+      "bytes": 126464,
+      "sha256": "5fe887dea8dfcec4e5aad4a42ca515b769ea3a2c1abd9315d899178c419e4399"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Sidewalk_R_Clear5m.uasset",
+      "bytes": 126829,
+      "sha256": "5bfbb2e1d9417a15c7f1bfffd4320199182c76c664fbb4286c8d2262704b5214"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_01.uasset",
+      "bytes": 116897,
+      "sha256": "81fbe71c4e4f48db4b567a06317fcaacb978dce2ad924f6a1657265314d97cde"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_02.uasset",
+      "bytes": 116870,
+      "sha256": "ccab677ce5245015212ce22eed32f7a402ef9b1f68d34dfc118a49809ef29ebd"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_03.uasset",
+      "bytes": 116870,
+      "sha256": "c243e9ac464b56b4eb68cb7157803de16cd51ff4918c5911d5763518f11ab7ff"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_04.uasset",
+      "bytes": 116839,
+      "sha256": "50adf13aff9b8b1c67657e71a0fb94688436e57bae754a45c2997c8efdfe4bb7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_05.uasset",
+      "bytes": 116840,
+      "sha256": "21346afd159045006731894b4c7b32aadb8bfb4990031f46e9f07a1d45951990"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_06.uasset",
+      "bytes": 116800,
+      "sha256": "91f3c524c80d96f08c47ce1a83d177a429f85f3412e3c92a14f157443e229a31"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_07.uasset",
+      "bytes": 116800,
+      "sha256": "d7768f52457eddf266a0a9724c2d224a55aedbb7e2b6a875a97d8539a79f67c6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_08.uasset",
+      "bytes": 116800,
+      "sha256": "3901c3e6fcc9565257b5047d5d9280fdd8e1919f7d9f4dd029f04f800f2eeda0"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_09.uasset",
+      "bytes": 116801,
+      "sha256": "8652654eea97117380a12e8a969425751424d88f6f6cfbd4a5895fb1403905c8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_10.uasset",
+      "bytes": 116808,
+      "sha256": "7834550bb1a008f54dd702f1d58f65e5539ca180526f9c5982056a2a07ed87ff"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_11.uasset",
+      "bytes": 116785,
+      "sha256": "49f141d3a44e4da1ad9304aac87d28881721403d0c856463bb413d82f8d67c0f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_12.uasset",
+      "bytes": 116797,
+      "sha256": "4f15c44ec24242886c3dea23a43555956fd7efb4556b7b39899505c3cc269a23"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_13.uasset",
+      "bytes": 116753,
+      "sha256": "99d3664387749c8cae33d65dc69608247ccfc80a2d6bbdc793a2d9755a855322"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_14.uasset",
+      "bytes": 116737,
+      "sha256": "21047a46e75b6bb4b02ad656be4049cc6771d35416d1d23f6e94029e78086d21"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_L_15.uasset",
+      "bytes": 116734,
+      "sha256": "8d9747e8e34e555daf21eeefac7dbd1aa49823b7575a127d497bab69892f1272"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_01.uasset",
+      "bytes": 116894,
+      "sha256": "c81edfd5414146c6b25004bb0e15d62082818ff702f15f220b50e0170f90c029"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_02.uasset",
+      "bytes": 116867,
+      "sha256": "e5dd626a33955053c0f7027d3a8397d2dc2190016f31c37d0b85bfd6f96f68d3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_03.uasset",
+      "bytes": 116866,
+      "sha256": "7925de9658dc52da1422462ad2c7033eb0918547a3461b71df567967e8dc873a"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_04.uasset",
+      "bytes": 116846,
+      "sha256": "bcb7589c9d32911d53a6bc8e04eaed2958d89860994a98b572ec05f19930c8da"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_05.uasset",
+      "bytes": 116847,
+      "sha256": "6e10297283ff795ab4af7e4b58d23dc445db33efad2a00f75cb852b7753583e3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_06.uasset",
+      "bytes": 116821,
+      "sha256": "dddacbb9621f0d0e5c2258135bec77ada2a98fcc1d352f6dcdae39bbaefb917c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_07.uasset",
+      "bytes": 116822,
+      "sha256": "7dae65e9d7a8929d9c0d11170103a8e5d4ec18df197a4e38ecbc3087aff2e658"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_08.uasset",
+      "bytes": 116822,
+      "sha256": "422e83613de26e60f6f5d6e896a6a35097b65fd7ec681f3016f01b41ade5795c"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_09.uasset",
+      "bytes": 116821,
+      "sha256": "07d692df58aec33179c17a440cf00ef59ababd63685ac4aa139cf6c823a5e5d3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_10.uasset",
+      "bytes": 116788,
+      "sha256": "f7fdc6c696953e58cfb6cfc302ca7bc4f8fec31656021b77f7a31a7add8d7788"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_11.uasset",
+      "bytes": 116822,
+      "sha256": "86feafeaf93ad2a3802b08cfd903e908816e22a00263fea0e7ebb0ebd1b432f3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_12.uasset",
+      "bytes": 116828,
+      "sha256": "7b5bd2027eb54ac7e5f4e98965123040070bedb60a5bbd7962b57ecfca1cfd32"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_13.uasset",
+      "bytes": 116846,
+      "sha256": "0514e233fda7762cd22a71cd1ac897c87740e3b1ad440d2fbbc6a5fc32ca2719"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_14.uasset",
+      "bytes": 116745,
+      "sha256": "b93b3586312f0e0804cacc74b8aa7cd9f25b23bc452184a2547b12d38cf2a569"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_15.uasset",
+      "bytes": 116769,
+      "sha256": "5b41ad55dfb4641a0100dcb85a04881db0ebaa48b1fbdb1fda9a11d904297759"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_16.uasset",
+      "bytes": 116743,
+      "sha256": "676436615f12efe111897def915be27bfe9f689f6da438d68184bf3dad9ff515"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Streetlamp_R_17.uasset",
+      "bytes": 116715,
+      "sha256": "beb32df69f5e50945cc7b3a8074877864cf114771da1e854223ae2d9f11e2568"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Terrain_East.uasset",
+      "bytes": 99239,
+      "sha256": "578fcb1b9cc8742a87bf3e509bfeb9700876502b22107c1ef7f005044e1c578f"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_Terrain_West.uasset",
+      "bytes": 99365,
+      "sha256": "4f4df511d589880d788d774894f87a4cfe088e41e9f3c8acb211540da7e343e5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Corner_03F.uasset",
+      "bytes": 116429,
+      "sha256": "25002c01aeff6de620be21563e223b42fcb2a5c90ca79739674e33209376b6d5"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Exit_01.uasset",
+      "bytes": 150632,
+      "sha256": "cf56b00e06ef8c76375e31e0187d8b5f0ad5dbfa92666207f08d0974c47060cb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Exit_02.uasset",
+      "bytes": 131785,
+      "sha256": "c14fb520fbfbbff1658caea0e7b199f23723f3204f32e9577762935511ab86a9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Exit_CityExtension.uasset",
+      "bytes": 151435,
+      "sha256": "fac839716c24c8389c33bc37eb54e680e6ad2c266307c260311830314753f282"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Main_01.uasset",
+      "bytes": 130627,
+      "sha256": "917b2f73a6d1c8e1c4bd42ca721c6c51b1f9f9b0941a7ec6b9209f61c4ba33ac"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Main_02.uasset",
+      "bytes": 146150,
+      "sha256": "549e9bf7d6bc4d1ee1a63eff4815e7cec5f2854049086e46dbebb4955b35bfc4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Main_05.uasset",
+      "bytes": 143159,
+      "sha256": "054e74227d752059fb74402cdf6e9d283736869e0c8ffb73cda3bafa81503ceb"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Main_06.uasset",
+      "bytes": 145933,
+      "sha256": "10a68cf53a49bc1dbd6140c7b34cb63ee3b13838587b6cd1974827b45973a07b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_L_Main_CityExtension.uasset",
+      "bytes": 145397,
+      "sha256": "3c3664752ca14091662466638f85265fd445fda00e12db09bdcea431561a34f8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Corner_01.uasset",
+      "bytes": 126838,
+      "sha256": "4fd517d89cd3165258f99b4dc3bb3ec39c4bf3bec1b6188e643bb92f18b34413"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Corner_02.uasset",
+      "bytes": 132327,
+      "sha256": "551502ba9108c693a60c9736de42fb7da831e6fe8a3f1775a8680effa71e05d3"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Corner_03.uasset",
+      "bytes": 127065,
+      "sha256": "57f5df0d63cf3a74af7515d45f61e2d3f3007618a01d4a8809792d4a12a03198"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Exit_01.uasset",
+      "bytes": 155023,
+      "sha256": "62c3d43c91a7ee9ddbd6ce60f647ac230e80cb1fe78fd5ca5eb2cf25042d0e23"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Exit_02.uasset",
+      "bytes": 129104,
+      "sha256": "c556a831d8c7419ccbfd8a523d2f9907ea5feaa698dbd53ef24f46edb0f0c9a4"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Exit_CityExtension.uasset",
+      "bytes": 162094,
+      "sha256": "c62e8f72dd798ce51710a2a53881b73e4bbdc764d5a2daa46b33dbeb151f9099"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Main_01.uasset",
+      "bytes": 142129,
+      "sha256": "2c367476a261db951a16aafd53b4bc2ab593ddbd94b946ba08784ef843e086bc"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Main_02.uasset",
+      "bytes": 146110,
+      "sha256": "70b13d97b1a35a952769007fd497b75aaa2b403539dfc92a5dae1823c0cf11a6"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Main_05.uasset",
+      "bytes": 141653,
+      "sha256": "43fa2d3e126e167404cbb32f6a2b66e7b25494cdff28d7e244b331dd3a55f9b7"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Main_06.uasset",
+      "bytes": 151548,
+      "sha256": "a9bf8112b27abe842224963ae214ffb9c7986692f3ea57ac15d1d96bf4f6035b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/SM_WindowDetails_R_Main_CityExtension.uasset",
+      "bytes": 153184,
+      "sha256": "f27a689a6a5ec7f6e419e5889226a0ce3241f8f700de89aa52b4afd8703e33e9"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车场景资产/T_F07_Brick_BaseColor.uasset",
+      "bytes": 992575,
+      "sha256": "1ded182da381e4731800765d76817614c3f3b2333d68391e4f281ff2c5357423"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Cab.uasset",
+      "bytes": 89619,
+      "sha256": "c2215f87819d900ae6ba55a44aedb82403677c20a2a719813a48dcdddac61359"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Cannon.uasset",
+      "bytes": 89631,
+      "sha256": "29eebaf6db85c4b14426c1f43e8dd87fb3e312715e58c68b37966ca651ae5509"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Chassis.uasset",
+      "bytes": 89022,
+      "sha256": "5f0b19436a72d665b1b70c89e2130db688366cc5e944da5d689e9969c2c549cf"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Lamp.uasset",
+      "bytes": 89641,
+      "sha256": "4424007d07715301d42a3886c1709cefb7c02be8815873c7daab0abbb23ebd6e"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Metal.uasset",
+      "bytes": 89628,
+      "sha256": "0b50b7b0c2c979d5611f3cc020b33ada0206758f5aa885357881ec9865fff208"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_RearLens.uasset",
+      "bytes": 89269,
+      "sha256": "311eeb338a17d88f8d32ad9ecc11205d9d32ae6aa0edb078dfa3cd6db0727963"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Rubber.uasset",
+      "bytes": 88354,
+      "sha256": "70ebe586c021947efa39a679fda0c7dd90c075ccaf7c6ae272bedc3de2594dd8"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Tank.uasset",
+      "bytes": 89665,
+      "sha256": "48ab500aae09a1a6661a7dded0fcc5b5d780b54c34907bfb6a095d1a0a19de37"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/M_Truck_Window.uasset",
+      "bytes": 88907,
+      "sha256": "e3d0870e8464acd970faacf2987f09998e7f4b238c515f94fc3107f566484d67"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/SM_WaterTruck_Body.uasset",
+      "bytes": 196728,
+      "sha256": "ad96231bf11b961198e466fae6d54f269367cf7983c7eda1b42964502d79892b"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车车身资产/SM_WaterTruck_Cannon.uasset",
+      "bytes": 125870,
+      "sha256": "a80bc90d8584a1a3c9fc526b3c61f8d30b1d6cc26347a597f5fc3aef9c6f0d98"
+    },
+    {
+      "path": "Content/洒水车demo/洒水车Demo.umap",
+      "bytes": 1927249,
+      "sha256": "6c4929891e499a81a124c1d7c933a4dc93ff0ce74125b332911db02c3ddaaa23"
+    },
+    {
+      "path": "Content/洒水车demo/天空盒/german_town_street_4k.uasset",
+      "bytes": 18214472,
+      "sha256": "ab09187e97556cf70d4f2d1f0881b7b79d494c362e2e7fce41f6547f7efbb1b2"
+    },
+    {
+      "path": "Content/洒水车demo/天空盒/M_Sky.uasset",
+      "bytes": 16998,
+      "sha256": "6944e76385853676822f472843552f60bb3ffda495767d5e0061ec9c461302a0"
+    },
+    {
+      "path": "Content/洒水车demo/backup01.umap",
+      "bytes": 1475678,
+      "sha256": "544a5f5d86b70e643a5aa78656a603fcadff2597c9b68c57678154a661b06932"
+    },
+    {
+      "path": "Content/洒水车demo/backup02.umap",
+      "bytes": 1928300,
+      "sha256": "b0333af01f539b509ee4e74ee11be99edc706dfb3555760ffbb57d96e2204480"
+    },
+    {
+      "path": "Content/洒水车demo/german_town_street_4k.uasset",
+      "bytes": 1755,
+      "sha256": "199587e874186c6fb2525805ef2aeb2d2feb871209823f18ba50282dc12f9713"
+    },
+    {
+      "path": "Content/CastleAssets/Landscape/MF_NormalStrength.uasset",
+      "bytes": 15208,
+      "sha256": "255301427f96fddf9dce418a5e0ef483a44e2683ccab927cfa2c58164f386f1c"
+    },
+    {
+      "path": "Content/CastleAssets/Materials/M_Water_Depth_Inst.uasset",
+      "bytes": 14852,
+      "sha256": "97e7cd65590595c1f1d82f3e2c455e2a63079c6e01c185ecec0509ad2699e50f"
+    },
+    {
+      "path": "Content/CastleAssets/Materials/M_Water_Depth.uasset",
+      "bytes": 34493,
+      "sha256": "11817ed2ae0f3d2700aa560772dee1b589940eb4e2a35f9ce8db1ac6ac08075f"
+    },
+    {
+      "path": "Content/CastleAssets/Meshes/SM_WaterPlane.uasset",
+      "bytes": 15558,
+      "sha256": "06f49e5ae008f1318772cf7a96caa5bc2e5b745c98c4cfa72853b0b271a0fc66"
+    },
+    {
+      "path": "Content/CastleAssets/Textures/T_NormalVariation.uasset",
+      "bytes": 1382897,
+      "sha256": "99b0f67c74e2370473af84df5bbb4bb1d57f3a8c3cf3c285ef4b9f4bbfb6b7b7"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Animations/Jog_Fwd.uasset",
+      "bytes": 203111,
+      "sha256": "81b4dd2a00331ba3086ce06a8673667359183399c5fb1ab924060e2c84720691"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uasset",
+      "bytes": 13710,
+      "sha256": "fa87ecdbb722402bdb4decef1a53487d6b74789076cb7aa51a4521553f478a89"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uasset",
+      "bytes": 11197,
+      "sha256": "ff2747888cb753414087d94c0aaa824e88aae93ca25584419a1ace2de31bb048"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uasset",
+      "bytes": 10382,
+      "sha256": "b544f3c62bdc242ceb673eb94a30a1bb881ea3b126d849e8e969ea6b30c25772"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uasset",
+      "bytes": 14647,
+      "sha256": "28ffa6db34aa484d7f36d872c88b5628a5a9aff7279c1e0d819fb20fe29459ed"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uasset",
+      "bytes": 28440,
+      "sha256": "4042ac871e2df59386ec9b28ce4c8436753e92ba1e0c69b8ba1b75220a386e96"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uasset",
+      "bytes": 11162,
+      "sha256": "03e96660ce9ddd947d06b73332cc5e3ce76339f937d2cd7ef5396e20a1bdd968"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uasset",
+      "bytes": 46446,
+      "sha256": "c8e0bf4f4a7a8702be683d64e382e0994d56a24f6ef94a0e13d0d3504df9e490"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset",
+      "bytes": 22962,
+      "sha256": "44ad784e4e3635f78abc34c3f266522218994b20714ddda144bbcbaa5972c4ed"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uasset",
+      "bytes": 5583495,
+      "sha256": "add4a29562eefee1f38203b6377e56cdb62ad5f109776e845d05e4050552926c"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uasset",
+      "bytes": 71194,
+      "sha256": "d11c3e119a9da27e154fea6dfb180402c0b15179676b6434380b6cb97f4eda5d"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset",
+      "bytes": 24832,
+      "sha256": "d3fe50ecc72bb7652ae5144fef41012547a5abc8561c0d50e471d1e4183c7684"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uasset",
+      "bytes": 25391,
+      "sha256": "7f5d400149d35fdd079992405612e79daf189bbfae4a386a8a7f2fde69434ba6"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uasset",
+      "bytes": 404289,
+      "sha256": "582564da5dbbe8e30e6d65babae05ff22edce4a0bc8833f95180b505f0837447"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uasset",
+      "bytes": 395400,
+      "sha256": "bf805e02f583024a7f5a40f4b2a249809ce711a46de5c84bcd74609b73fed351"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uasset",
+      "bytes": 429026,
+      "sha256": "64a3293fbe4df89c9040bc8d5e9cc6cebc945715ca1c8dc62a7682acc526a524"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uasset",
+      "bytes": 358524,
+      "sha256": "4c84157238dd3d148b4f51e44a46f82d5dfd714beaa67c4c9c2998bdc7ec3365"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uasset",
+      "bytes": 5427488,
+      "sha256": "354c99110df3d84a5cf4bb01de49d994a5c674c9788bd4b5fc779bf3030c54cf"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uasset",
+      "bytes": 211489,
+      "sha256": "ec1d27963fc08f75eeee585f78d96ffbd8727bfe86c7c1fe0e7e2a2dd57d5a26"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uasset",
+      "bytes": 41868,
+      "sha256": "a6f7d178353537343355bd9e8021951aac860c189c1393f57777df90c720466a"
+    },
+    {
+      "path": "Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uasset",
+      "bytes": 56343,
+      "sha256": "5a30f20159eb0e91b89c5f36aa9e6699b4c1a2af7328296c3fd77c392e10b2c7"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+      "bytes": 368180,
+      "sha256": "698ad59b091eadff740a7ed78bb18cfad875fa3143d2ae614e0317d5e9680a79"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
+      "bytes": 39313,
+      "sha256": "cd84317778ba8ee13b7addf2bd11988a07c38cffbebb129562a25785e5215abb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset",
+      "bytes": 8993,
+      "sha256": "17534cfadb0ecbfec9556f6b116d3cc4276b2d8ea5b451062ba3919c5ce24a6c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.uasset",
+      "bytes": 925524,
+      "sha256": "bd4a9a8f6f4b229ff2674add7310fdc4f96068031ef1caa29abd8a787cba3e29"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Idle.uasset",
+      "bytes": 1436737,
+      "sha256": "309d438cb704de00071ba81152749efbf91423e746e73c66be467d4d38026df3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset",
+      "bytes": 403903,
+      "sha256": "a3fc97710ad016ef3215f511d1a100100aed75a125cfbd583f7e1e50cc20ed7f"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset",
+      "bytes": 409605,
+      "sha256": "464ba88ea832164ea2bf2c3474121b918b23182c81dc29036a4db38aa316fa74"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
+      "bytes": 482548,
+      "sha256": "0461e5631fedca7f2de97fc1e3d74ce796ce65cb99058e6f822df2ca398b8ddb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset",
+      "bytes": 30458,
+      "sha256": "4b7e4d1ff30352e296f446e77eed841ad7d5344430c5f7141fd09aad7e0af2c3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
+      "bytes": 549054,
+      "sha256": "4c972b0416703f5e24b75ec256314133a9d3f7f9d5ed72937cc0930937209d01"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset",
+      "bytes": 609238,
+      "sha256": "55a005cf4d673d8fcef1b93e2be270b8c47a8a82b7cbf895a915d27710d4a40b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset",
+      "bytes": 9025,
+      "sha256": "e6974eb2d3d4f246d91f0cfea6b4400aed38c722b67dc9ca8c15c9bc4a14e193"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Quinn/MF_Idle.uasset",
+      "bytes": 919278,
+      "sha256": "98c6ee27d23ad13b69cd51e466058ff8f75e55ec69ab78911d43eb2d54151022"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.uasset",
+      "bytes": 431040,
+      "sha256": "069b7d70641be0a4f2c0d9f0cb4662c796da0f2969c6f1297ae3e22dd3479026"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.uasset",
+      "bytes": 449906,
+      "sha256": "a277d4a34033b8e5b336eace9857a4abf1f255a2a4687fa1709b5a5a464ea137"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Functions/CA_Mannequin.uasset",
+      "bytes": 4812,
+      "sha256": "5564d59ac367f94d06d6eafc8eafbc1144eec525ebcaf0bd20c3effd400bcf8b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Functions/ChromaticCurve.uasset",
+      "bytes": 6306,
+      "sha256": "32f26545999f01c55f8900c2d491d4cb39f3c545b061225deee2c8b70e760b70"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Functions/MF_Diffraction.uasset",
+      "bytes": 32183,
+      "sha256": "1248c9176bcd4693cab74b63249bd9f0434758dda1c4f4b5c53da5e2a2b91ec2"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Functions/MF_logo3layers.uasset",
+      "bytes": 56603,
+      "sha256": "d1f542fd354f8ff82fb685318e3665da4e9a9207add267de9ce6cf8779b5e147"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff.uasset",
+      "bytes": 13437,
+      "sha256": "242a332a47b300d429e94147a7ffd38ed09b5c2467dede5e90525494af7c5e18"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset",
+      "bytes": 21590,
+      "sha256": "2492fbdc6d6af64af264159aeab1b4ed6fc859e2adbd1be4aef59dd8221c7d49"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset",
+      "bytes": 24853,
+      "sha256": "9e6b0c28b5f10768f406776c4fc9d853eb915efdcff8e79465e96aff8c11872b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01.uasset",
+      "bytes": 19667,
+      "sha256": "cc66db2c2b3f8f37191aad8bc59bbdecda0a19a03a995c602df3b2d8cb3f19e9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02.uasset",
+      "bytes": 25230,
+      "sha256": "46e73fecdb44bdf4bbbd661ee36798f7956f76360594023cb51b96f92ca4c01c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Materials/M_Mannequin.uasset",
+      "bytes": 83079,
+      "sha256": "c19c44d3a63f9975bb2e777d37d44341cf24907674c36cca79c558383406f0d5"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/Mannequin_LODSettings.uasset",
+      "bytes": 18996,
+      "sha256": "ae6203ccee7839e886951796d05315fe1dd9b9aa44c8a60a9525d5ccd905d5b6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+      "bytes": 160872,
+      "sha256": "777b2aa0a679b5d326814440204787ff0ba56b4ad9477a407b24d689155b050c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset",
+      "bytes": 18527372,
+      "sha256": "bc39b456f2700d3f7aa0dfa99432424c78464b723a143bdf337dcc96867aaab9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/SKM_Manny.uasset",
+      "bytes": 34534883,
+      "sha256": "f1df1a6b3db170cd80f14c40653fbc9a692af00f7abd575872d9cd8a707e05c6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset",
+      "bytes": 19371553,
+      "sha256": "01031c54550174f0a09f13787b128229316afa699302577044e13b6c71d830ed"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset",
+      "bytes": 36495654,
+      "sha256": "e0fdd468262ff66fd30eb55f7bac167063959e5d9dbfa36abf853a5d77616a59"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uasset",
+      "bytes": 463451,
+      "sha256": "5f58d1ac6047ec45bf31bec1071a5afc0e9dde9d50849bd8e74ca1c4271495c8"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uasset",
+      "bytes": 463249,
+      "sha256": "2f57ba4350e61b3a5fac6cff45c3d21b81d0ab289765dac797b150b8bac98f34"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset",
+      "bytes": 580522,
+      "sha256": "968ba2fa8bf2bca36556b5623b895b9ac9db162f9c2936acda0b0504239543b4"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset",
+      "bytes": 16036573,
+      "sha256": "2d6092d8eb4a158e99568dffe0f036a5310b03d5a917e3b58529c7d5fd4088ce"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset",
+      "bytes": 2267523,
+      "sha256": "4d1abd304377e26c3c7e5a3b7488c522b118cc62ba0f574e9a63ec2e6ca22ac6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/IK_Mannequin.uasset",
+      "bytes": 143471,
+      "sha256": "a5e1043e62bb9602549af1c10e29b8d35f41fe8eb0f3162b3c3cbde569e1dd55"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset",
+      "bytes": 289285,
+      "sha256": "a0b163ae42f4717b12d4a9ab0c6b9da218e2d0d64e891b508e81586ac2a3adee"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uasset",
+      "bytes": 141452,
+      "sha256": "ec42316c0d0e642867721ab1ac8b58452ee537c9dde5e4d4389d745ccc44e9a6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uasset",
+      "bytes": 207430,
+      "sha256": "26f5c00f4b1a7000505a233e217aa55c5e32b0473128b7cb96f34051dc330da5"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uasset",
+      "bytes": 141462,
+      "sha256": "afe97fa82d46c150d56573b1d1c3d59fbac288f498c3de5fecedd8ac64c2263a"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uasset",
+      "bytes": 207430,
+      "sha256": "5fb5783ac00efbfb039007568246d1ac33d36da09eec69e3cf0d01e1f96d13fe"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uasset",
+      "bytes": 141484,
+      "sha256": "5b4292d4d3cc8c3a23c0d2ea80461f9c05379a22e97c94094a1c4e342e6f0fa9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uasset",
+      "bytes": 205732,
+      "sha256": "56c0e188c3d854c92956755b9c89b8cb6cdb75f1bc4aac655f0d5f6524fb8160"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uasset",
+      "bytes": 141486,
+      "sha256": "9263821d96862a7121442b54bcaff72775c4758fb2218747bd3540207aa0fecd"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uasset",
+      "bytes": 206334,
+      "sha256": "20d21639ca1cd7876ba408a4e6603f66d3d4c9a65d2bbf7c76b59f28e4d020e3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uasset",
+      "bytes": 129460,
+      "sha256": "d5d2ef5f757409ad457660e4388272646155d5bcdfecc4705b85b41d338835c6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uasset",
+      "bytes": 132176,
+      "sha256": "9b0c29406e6b6a8074edb2b2d1107d62972059ccae5c0bfe3dc6d99d932f00ed"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uasset",
+      "bytes": 129462,
+      "sha256": "3f872db9323bc78b01d91dea5e406cfa348ef10aeed5b9e66a97ddc87b58704e"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uasset",
+      "bytes": 132176,
+      "sha256": "0313dfda857c8a37ae26a104bee21803eb49acc138a18fd7a6864320d025ef40"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uasset",
+      "bytes": 135460,
+      "sha256": "0ad7d36e92954cf783be7be2c7ce8e2e6b3b4376645985a6a772b5890977c381"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uasset",
+      "bytes": 169206,
+      "sha256": "a1d40437f02274fec5ff3cad47fa3e1cb2997db9397507823c299f0749e1c5f0"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uasset",
+      "bytes": 135462,
+      "sha256": "e52609e89b719e493df4ed2a196996db3c4dfff4b20a83f68a747099f31827c9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uasset",
+      "bytes": 169206,
+      "sha256": "c9b7b4ce565d7c55919dfeea6b785e2704cba7cc2ca8ad786145739a7eac36bc"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uasset",
+      "bytes": 203916,
+      "sha256": "a1761fa57b6504be33ac4c346839446698f20fcc8942a36574ae579e99d6311b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uasset",
+      "bytes": 361644,
+      "sha256": "6a75265541e206479aabe98ede22dad0ae72aedd9b43fa8c33741422f4c5ec38"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uasset",
+      "bytes": 165486,
+      "sha256": "7bad38ef33364282ad783d13ff05ac64235fbd94f735f7970aa690f302927139"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uasset",
+      "bytes": 361644,
+      "sha256": "02a9cb1c077531f9bc0acd2f5868d25d42e7f1edaf21d29b0a89a67f277bb2d2"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uasset",
+      "bytes": 195468,
+      "sha256": "46328ac897d55c35ed2c5f7d28443c963b6e4ed348adaf74980b1b7e64514975"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uasset",
+      "bytes": 557972,
+      "sha256": "ac1fba41bdc8d3832f26bee507b7f83d2e51051cae58ecbea0a1e73f3d1e8198"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uasset",
+      "bytes": 195470,
+      "sha256": "b17348bde6d9bd17838698331f08c1babf8a120aab05553ddcbf658cef3d6caf"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uasset",
+      "bytes": 557972,
+      "sha256": "3bd106c4cf63362f741611edf562149e7d928c4e12a5debac2a27265bc315775"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uasset",
+      "bytes": 207486,
+      "sha256": "59995bd0fd055a0c29809abcec8ab593a4cfb517a8c52d09b56870ad46a6a431"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uasset",
+      "bytes": 641633,
+      "sha256": "b56619a8bff783926b5bc17770f90ca5b6dae18cfce0cfde29c69db26df8c968"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uasset",
+      "bytes": 207488,
+      "sha256": "55a49a9b5f1d55df4733f651d7110c677fff421e8ccf317a7b5604d46380df9c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uasset",
+      "bytes": 630195,
+      "sha256": "ed2b9dab16c319539175975f14ed906f2e442ebb3705a0f1bfb932b8b2752eec"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uasset",
+      "bytes": 190030,
+      "sha256": "315c606d481e66842161f6d640843049c1bb8fad801817cdc01b5347459fe663"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uasset",
+      "bytes": 245188,
+      "sha256": "5ee7e7490da8bc5da27bee03d313475c546418b9aa15186cc1e342ac314d1599"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uasset",
+      "bytes": 228099,
+      "sha256": "46a6c2f1c8b50afe1849072f062ead508a2f570682f1b21b2e85334776c5f315"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uasset",
+      "bytes": 245269,
+      "sha256": "eaf41bdfdbbcde2f668b07dd932baac1b5517312d04d75b77dce1e82272b31b4"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uasset",
+      "bytes": 222063,
+      "sha256": "def1eceb6484991a242bd5bd4bf2c9c1b857861ff5b981ee916a23d4db023b4b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uasset",
+      "bytes": 205936,
+      "sha256": "c2225dbb5778c1529862086865e86272e574cc993ac0a48cb1c0cc28fafb27c1"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uasset",
+      "bytes": 183734,
+      "sha256": "97a0673daaa10512b94608a6ff11d82914e0812760b75ea7e86c3b43c0b4c97b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uasset",
+      "bytes": 205980,
+      "sha256": "aba097887d167f4b9277338de16c7feb689882acb393b32a0ac176d27f62e2b8"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uasset",
+      "bytes": 171708,
+      "sha256": "6995c1603c3553af502c2ef04f6fb685d9183f0668266c6562f16238e08f80fb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uasset",
+      "bytes": 132123,
+      "sha256": "98e401355f6f5bdba83fc2e84ecd9d7e5128f1d6f0c585f368b9d971da58273c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uasset",
+      "bytes": 171710,
+      "sha256": "91500b65453319b136c33e0b3edb161adf1030a5c3c30c8602390f1725af65b3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uasset",
+      "bytes": 132123,
+      "sha256": "d4af5fd34572deb49a2335651c0a311e4db80ed2394c6c1ad633735fa1cf5e44"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uasset",
+      "bytes": 177708,
+      "sha256": "7b0b0e92c4297c40bf94f63ccebd938acc49fc4b1ce45f1680fa533c5ea923cc"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uasset",
+      "bytes": 169153,
+      "sha256": "c7c66da3c6a7b2801d9ada447fff4a2593a4b6054a178141f1eae26e21e4b3a7"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uasset",
+      "bytes": 158608,
+      "sha256": "c6128ed9b666f06dde9df5e3d647aff8994b07ad1b4b36fedf693726d63ce138"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uasset",
+      "bytes": 169153,
+      "sha256": "973ad5984394de84cfbe2dd3021f7f64f8c4c2e85b6573866382df76c0d9d2f3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uasset",
+      "bytes": 194631,
+      "sha256": "ecd03a972b3109a14840c924efe7d5f6b486ad3e7764773d33eacfb8032bea64"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uasset",
+      "bytes": 399529,
+      "sha256": "106aa8dc6d3493474f24e4d3240212c3c24428249d5f09f078c65d0372cc3d4d"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uasset",
+      "bytes": 194633,
+      "sha256": "93be05fdf4241bdc152877416175f804bd2e1976d7588919192316bd7b21e936"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uasset",
+      "bytes": 399529,
+      "sha256": "610877f087e4e77eba703036159d4abc95b52a1f196b7a317da97963e7477455"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uasset",
+      "bytes": 218614,
+      "sha256": "ae59b67795d102845bd680e15d74a9b70688315a0ca489232f56cc9005de5597"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uasset",
+      "bytes": 557618,
+      "sha256": "04d95febf97f6a4d406c53efc6551eb20b378c8a91fef18c151b92a8b3df1abb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uasset",
+      "bytes": 218616,
+      "sha256": "b808aa71712168bf1905b91a238f152347579523c2eeec52401b67bf6de6ad27"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uasset",
+      "bytes": 557618,
+      "sha256": "76f65a5466dd4cd84abd48bef6245bb84930f7b8efff23807a88d4b23df3c1b3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uasset",
+      "bytes": 206632,
+      "sha256": "1de49cf76ee2b6e93936cad3a1ace2bb849e3cd84a24bb84e566abde3a035758"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uasset",
+      "bytes": 485440,
+      "sha256": "d72952cdf9066cd84e1e5ea11cc2f6a754b0e79f8f037e1f2c8fc8c86ddb408f"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uasset",
+      "bytes": 206634,
+      "sha256": "6d1fd8bad84e7c6c45884137870261dc78789def4c72683b3775790722d1894d"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uasset",
+      "bytes": 488450,
+      "sha256": "ee8b8e737a19894faf44176bcd5aca3405b3a1879eeea792ebdb0c534691cf1c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Rigs/RTG_Mannequin.uasset",
+      "bytes": 27888,
+      "sha256": "7c414b85f950bb35eb264094894cd081a1478f7eff68b3168d87a7a8691b6eaf"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset",
+      "bytes": 3612605,
+      "sha256": "ac817a2d33aa0cd0a8695b9fba9a925a1c71cfbe6de32986a51e6acb1ca598c0"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset",
+      "bytes": 18514168,
+      "sha256": "8036d465bf677ee48f2c45bb50911cbd085a3d5208959e0b70377bb8d9bc26a6"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset",
+      "bytes": 10271972,
+      "sha256": "a3502ef8e4e68f4968b52510cf1fbf2fc0ccc1eb8d7c1e1afeb350d650c2e8ab"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset",
+      "bytes": 5740376,
+      "sha256": "fc929bd4eb67ba8610069c601709062d142cca925eedc40c89a940037650b524"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.uasset",
+      "bytes": 11038184,
+      "sha256": "b54209191bfa9dc3c8e195661e0d7807a24f039a3010d54f04e984f63669881c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_N.uasset",
+      "bytes": 7198251,
+      "sha256": "b90b6df5b96b505495be378ecb268a17640ba88b40cfe5b0fc764aac26a07c40"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan.uasset",
+      "bytes": 1357770,
+      "sha256": "251a25a1ac777fddadd2845c84edca5b4ce15b749e9f46d8169c001b9be9c4ea"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset",
+      "bytes": 8341381,
+      "sha256": "51d2a2a0683e0c5654d4c5c724e8360c83e4ffe5181ae740872ca3fc0533e85a"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset",
+      "bytes": 21139527,
+      "sha256": "0361a08e270d688814e73adf503937c3012771b0a939f839a06f7c6c8d5269c3"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset",
+      "bytes": 13144043,
+      "sha256": "651eac4091121b27a09f3b13110ec307e9bd815f9a6e573618d051c24387de46"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset",
+      "bytes": 9033544,
+      "sha256": "42864bd62f0f0d9510453038ff284cc1c1fc09630af8da0cb496e0563a2ffacb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uasset",
+      "bytes": 13677610,
+      "sha256": "bb66b07e8c8621bf361a9d18f97c668677e51164b5892c2577c94703531482e8"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset",
+      "bytes": 7269335,
+      "sha256": "790e9d4e061af061c727d118634801c4834b46e119dd1917ffe5d18f6601d53f"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uasset",
+      "bytes": 2153790,
+      "sha256": "187e5fb0047bcc653c7a6e014c49e3d6582e955a3c034579cfb756c80b68dc53"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.uasset",
+      "bytes": 5834834,
+      "sha256": "d5583b02c8b943d60f91f5d9bb59466c9fb1ab3aa811d599c54a20f2a19661b2"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.uasset",
+      "bytes": 12399926,
+      "sha256": "2134af63f2d5037e8fcab8e4f50593d62c731f4a8af43bdbd7c2613debea0cbb"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN.uasset",
+      "bytes": 16108599,
+      "sha256": "267382e5ca6dcb468e63545e09778b0e16dbd7652cb6d735b487cff1990e809f"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D.uasset",
+      "bytes": 4711156,
+      "sha256": "792f234ebadad1dc45153c9b1987326d3a4da485d88cf8b1234e3395f5165070"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK.uasset",
+      "bytes": 11656141,
+      "sha256": "e765500d0458a2b4612541ae714281afc376b1d4758403017eb1ca6bc6892de9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N.uasset",
+      "bytes": 5217676,
+      "sha256": "a8266e8da977f915cbd75329eb02feee571f92067ee749b45099c290519bf20b"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan.uasset",
+      "bytes": 1104627,
+      "sha256": "57d9b50418e742ee22fc67783d9db3afb5027c3ef943753e4137742a692b4e01"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.uasset",
+      "bytes": 6901973,
+      "sha256": "53b15563df73f76b904d67eec1f7f7ad3c27166bdb1aa21d99c7f9eec0116d60"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.uasset",
+      "bytes": 13427858,
+      "sha256": "fe4e287b727a2b1d18f26557d1569111eda715219f8c73bd96cb74ff87c2cb8c"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN.uasset",
+      "bytes": 19706883,
+      "sha256": "fa063b2ea5c44fbc95b17b6a6c093c39a6bbbee1082137c42cbf23b311c75cef"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D.uasset",
+      "bytes": 6732524,
+      "sha256": "40f579c2a83087c90b7f36744a15798194e9ecbe7c6560d0da2903653ed17723"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK.uasset",
+      "bytes": 13169771,
+      "sha256": "98195f96efbfcf97ddf05c69f2f04388a5e5aefa22d2c9d771f37b22aba8fc2a"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N.uasset",
+      "bytes": 5217676,
+      "sha256": "637241dcbbff574ea1032881f60ddb007ce4a33a61864c6b0d3b3b7aa392d0d9"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan.uasset",
+      "bytes": 1758494,
+      "sha256": "bcb445b1af4f07ce1b59ab3c8c25af3da7eb1f9c019559b0fd9172c31f38fa5f"
+    },
+    {
+      "path": "Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset",
+      "bytes": 69960,
+      "sha256": "0571397248a1f4acc7607d1e53676cbb154e3c9c8a19d570915d76b70caaf99c"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset",
+      "bytes": 40328,
+      "sha256": "f1a5b000cfbe3030ff6f0bb67a2e4cc4bb803769d74ebd88d54f98918616d2d1"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/M_Solid.uasset",
+      "bytes": 9609,
+      "sha256": "d754d45a7f34228c043d5389af994f3f6c9d6e4bd579bba6c65f11813db11662"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/MF_ProcGrid.uasset",
+      "bytes": 48741,
+      "sha256": "fa5d22837af536b9690ed2f790e288a59ca659c63e669fca99685afc2364ce82"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset",
+      "bytes": 11922,
+      "sha256": "fa0f2a06a7d937127d7d737c13bacb3f8fe88c8e0479f5e6b7cda81fd225d077"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset",
+      "bytes": 12785,
+      "sha256": "65022a590b73953153898dfd370aa8c2609a84670cdb06dd205d813712d1c1a4"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset",
+      "bytes": 11957,
+      "sha256": "838034e5afc7ab3a70bfff6de2e1237aa02337fb423e95c1b536b3e30c61c982"
+    },
+    {
+      "path": "Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset",
+      "bytes": 8669,
+      "sha256": "417952e4c6986a99f1bc3fb25ebceb1308806028bd2b602501b66b874aa87cc6"
+    },
+    {
+      "path": "Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset",
+      "bytes": 22332,
+      "sha256": "6301fc4690ae3dbdc0b77203c6e5f662561351252c7df36c334fb72f6ffe2205"
+    },
+    {
+      "path": "Content/LevelPrototyping/Meshes/SM_Cube.uasset",
+      "bytes": 17034,
+      "sha256": "79cf9bb71346c1f0386362238aef3e01400be06211e6813dc1ce9bbae969fb07"
+    },
+    {
+      "path": "Content/LevelPrototyping/Meshes/SM_Cylinder.uasset",
+      "bytes": 20348,
+      "sha256": "a59270c4e29b708c93c0872970bd7f8cc2a9db0e898ba6792605364b25fee585"
+    },
+    {
+      "path": "Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset",
+      "bytes": 17827,
+      "sha256": "8da43997ae75f32c7fba7047ca3f34ca88d68613845d556072b74c93de74e6a5"
+    },
+    {
+      "path": "Content/LevelPrototyping/Meshes/SM_Ramp.uasset",
+      "bytes": 17169,
+      "sha256": "81a46d90c20408e4246e37c4c00bf764b5a05d3752eadd1c3b10e8946a79ffbe"
+    },
+    {
+      "path": "Content/LevelPrototyping/Textures/T_GridChecker_A.uasset",
+      "bytes": 9600,
+      "sha256": "bb8334767064b107ec4f4407ef1365e8b9e2dfeff5984e66d4a6232254ddd02a"
+    },
+    {
+      "path": "Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+      "bytes": 34232,
+      "sha256": "77ea60d528f8dedb8a1e810e8c41b193fb6ad35a25855fe4790784e42d7f7847"
+    },
+    {
+      "path": "Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
+      "bytes": 1808,
+      "sha256": "0b5359e7a5ee2200cc216b393ec64d1577d1c1c517a5da27ff435db27940d3bf"
+    },
+    {
+      "path": "Content/ThirdPerson/Input/Actions/IA_Look.uasset",
+      "bytes": 1454,
+      "sha256": "f31e273949de9b9798743f238b895cd422d9b14e77f73e11d993ff3527bbb735"
+    },
+    {
+      "path": "Content/ThirdPerson/Input/Actions/IA_Move.uasset",
+      "bytes": 1454,
+      "sha256": "d8ece438a653b29d1c64011ef11d4bd05245413994ecf4ad80ef4da1694b666f"
+    },
+    {
+      "path": "Content/ThirdPerson/Input/IMC_Default.uasset",
+      "bytes": 12793,
+      "sha256": "658cd92edd5950a4c65ab878682bde4ee787adf1b0d1c3d529fc9f43bcfe0830"
+    },
+    {
+      "path": "Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset",
+      "bytes": 3187405,
+      "sha256": "c5f8723ed6f2c90e7fcb4c39e87387829d94efc1682a831a69f4eb54553d3ba9"
+    },
+    {
+      "path": "Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+      "bytes": 22391,
+      "sha256": "75fdc32b42887c079c086e88611265103c301d7cfe4c2feb6e69bfcce1379594"
+    },
+    {
+      "path": "Source/AfterWaterDemo.Target.cs",
+      "bytes": 425,
+      "sha256": "c492d90c4d9f6a806effd142fcc43ed79f12ef64dc9ac3dd82997e2057e180ff"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemo.Build.cs",
+      "bytes": 379,
+      "sha256": "fce6ec7dd99cd2c4da3f4446bf23ed28aaa1dba4669f3263bdc388f915fb9645"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemo.cpp",
+      "bytes": 214,
+      "sha256": "885d9a10b2b9ef15eba0df2ffcc295dc5806d2f85db31475f6ba284f1d4734d1"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemo.h",
+      "bytes": 96,
+      "sha256": "bfa5f34fa3fb37a7bce87d8f7a7486db2b3f3c0d278f9b3613998ca9b5cc6390"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemoCharacter.cpp",
+      "bytes": 5269,
+      "sha256": "23506895b5c5310c1dadbceff44c837f78cb909412f51c492effe699a6925173"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemoCharacter.h",
+      "bytes": 2188,
+      "sha256": "6018dadbec63c1d456ff77eaba241191e376676cedebe176399fe09d99f41fc3"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemoGameMode.cpp",
+      "bytes": 511,
+      "sha256": "3250a4f6c7b0a2beb82f0f57e50daad11b5f5a811395c345a78332da52d8b2f5"
+    },
+    {
+      "path": "Source/AfterWaterDemo/AfterWaterDemoGameMode.h",
+      "bytes": 332,
+      "sha256": "945c98a3b7d49ffa68bb466faa0d15dc1d0a5ff82b1a9b48a9f4003fa7885ce4"
+    },
+    {
+      "path": "Source/AfterWaterDemo/CarPawn.cpp",
+      "bytes": 2332,
+      "sha256": "a36665cf392d667c0516cff5de5386249f1c9835098f448099b16da196c41789"
+    },
+    {
+      "path": "Source/AfterWaterDemo/CarPawn.h",
+      "bytes": 1679,
+      "sha256": "e426045539e6b6e0db21de75c165fea741c5e3383409c84f09434f8ab39a16e6"
+    },
+    {
+      "path": "Source/AfterWaterDemoEditor.Target.cs",
+      "bytes": 439,
+      "sha256": "6367fcff56c8dca26b0acbc55cf0e05438dacc3b2eda9e8cdf4079f39657bca3"
+    }
+  ]
+}
