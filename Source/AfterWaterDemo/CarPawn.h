@@ -18,6 +18,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	void RotateCannon(FVector LookAtTarget);
 	
 private:
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
@@ -47,6 +49,8 @@ private:
 	
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnRate = 200.f;
+
+	class APlayerController* PlayerControllerRef;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

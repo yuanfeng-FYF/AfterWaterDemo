@@ -7,6 +7,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "GameFramework/PlayerController.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ACarPawn::ACarPawn()
@@ -36,6 +38,8 @@ ACarPawn::ACarPawn()
 void ACarPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	PlayerControllerRef = Cast<APlayerController>(GetController());
 	
 }
 
@@ -43,6 +47,18 @@ void ACarPawn::BeginPlay()
 void ACarPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if(PlayerControllerRef)
+	{
+		FHitResult HitResult;
+		PlayerControllerRef->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+
+		DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 25.f, 12, FColor::Red, false, -1.f);
+		
+	}
+
+	
+	
 
 }
 
@@ -72,6 +88,13 @@ void ACarPawn::Turn(float Value)
 	AddActorLocalRotation(DeltaRotation, true);
 }
 
+void ACarPawn::RotateCannon(FVector LookAtTarget)
+{
+	FVector ToTarget = LookAtTarget - CannonMesh->GetComponnetLocation();
 
+	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
+
+	CannonMesh->SetWorldRotation(LookAtRotation);
+}
 
 
