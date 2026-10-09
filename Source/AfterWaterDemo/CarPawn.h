@@ -20,6 +20,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	void RotateCannon(FVector LookAtTarget);
+	void Water();
 	
 private:
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
@@ -34,7 +35,7 @@ private:
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 
-	UPROPERTY(VisibleAnywhere, Category = "component")
+	UPROPERTY(VisibleAnywhere, Category = "Component")
 	class USpringArmComponent* SpringArm;
 
 	UPROPERTY(VisibleAnywhere, Category = "Component")
@@ -51,6 +52,15 @@ private:
 	float TurnRate = 200.f;
 
 	class APlayerController* PlayerControllerRef;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Water")
+	TSubclassOf<class AProjectile> ProjectileClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Water")
+	UStaticMeshComponent* ProjectileMesh;
+
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

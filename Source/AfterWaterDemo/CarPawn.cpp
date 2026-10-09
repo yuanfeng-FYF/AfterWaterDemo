@@ -9,6 +9,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
 #include "DrawDebugHelpers.h"
+#include "Projectile.h"
 
 // Sets default values
 ACarPawn::ACarPawn()
@@ -55,11 +56,8 @@ void ACarPawn::Tick(float DeltaTime)
 
 		DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 25.f, 12, FColor::Red, false, -1.f);
 		
+		RotateCannon(HitResult.ImpactPoint);
 	}
-
-	
-	
-
 }
 
 void ACarPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -68,6 +66,8 @@ void ACarPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputCompo
 
 	PlayerInputComponent->BindAxis(TEXT("MoveForward"), this, &ACarPawn::Move);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ACarPawn::Turn);
+
+	PlayerInputComponent->BindAction(TEXT("Water"), IE_Pressed, this, &ACarPawn::Water);
 }
 
 void ACarPawn::Move(float Value)
@@ -90,11 +90,21 @@ void ACarPawn::Turn(float Value)
 
 void ACarPawn::RotateCannon(FVector LookAtTarget)
 {
-	FVector ToTarget = LookAtTarget - CannonMesh->GetComponnetLocation();
-
+	FVector ToTarget = LookAtTarget - CannonMesh->GetComponentLocation();
 	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
 
-	CannonMesh->SetWorldRotation(LookAtRotation);
+	//CannonMesh->SetWorldRotation(LookAtRotation)；
+
+	CannonMesh->SetWorldRotation(FMath::RInterpTo(CannonMesh->GetComponentRotation(), LookAtRotation, UGameplayStatics::GetWorldDeltaSeconds(this), 5.f));
 }
 
+void ACarPawn::Water()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Water Called"));
+	FVector ProjectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
+	DrawDebugSphere(GetWorld(), ProjectileSpawnPointLocation, 20.f, 12, FColor::Green, false, 2.f);
 
+	FVector Location = ProjectileSpawnPoint->GetComponentLocation();
+	FRotator Rotation = ProjectileSpawnPoint->GetComponentRotation();  
+	GetWorld()->SpawnActor<AProjectile>(ProjectileClass, Location, Rotation);
+}
