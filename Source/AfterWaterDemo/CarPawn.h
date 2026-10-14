@@ -24,7 +24,7 @@ protected:
 	
 private:
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
-	class UCapsuleComponent* CapsuleComp;
+	class UBoxComponent* BoxComp;
 
 	UPROPERTY(VisibleAnywhere, BluePrintReadOnly, Category = "Component", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* BodyMesh;
@@ -56,8 +56,7 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Water")
 	TSubclassOf<class AProjectile> ProjectileClass;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Water")
-	UStaticMeshComponent* ProjectileMesh;
+	
 
 
 

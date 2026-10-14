@@ -2,7 +2,7 @@
 
 
 #include "CarPawn.h"
-#include"Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
 #include"Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -16,11 +16,11 @@ ACarPawn::ACarPawn()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	CapsuleComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Capsule Collider"));
-	RootComponent = CapsuleComp;
+	BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collider"));
+	RootComponent = BoxComp;
 
 	BodyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Body Mesh"));
-	BodyMesh->SetupAttachment(CapsuleComp);
+	BodyMesh->SetupAttachment(BoxComp);
 
 	CannonMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cannon Mesh"));
 	CannonMesh->SetupAttachment(BodyMesh);
@@ -72,7 +72,7 @@ void ACarPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputCompo
 
 void ACarPawn::Move(float Value)
 {
-	UE_LOG(LogTemp, Display, TEXT("Value: %f"), Value);
+	//UE_LOG(LogTemp, Display, TEXT("Value: %f"), Value);
 
 	FVector DeltaLocation = FVector::ZeroVector;
 	DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
@@ -81,7 +81,7 @@ void ACarPawn::Move(float Value)
 
 void ACarPawn::Turn(float Value)
 {
-	UE_LOG(LogTemp, Display, TEXT("Value: %f"), Value);
+	//UE_LOG(LogTemp, Display, TEXT("Value: %f"), Value);
 
 	FRotator DeltaRotation = FRotator::ZeroRotator;
 	DeltaRotation.Yaw = Value * TurnRate * UGameplayStatics::GetWorldDeltaSeconds(this);
@@ -100,9 +100,9 @@ void ACarPawn::RotateCannon(FVector LookAtTarget)
 
 void ACarPawn::Water()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Water Called"));
+	//UE_LOG(LogTemp, Warning, TEXT("Water Called"));
 	FVector ProjectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
-	DrawDebugSphere(GetWorld(), ProjectileSpawnPointLocation, 20.f, 12, FColor::Green, false, 2.f);
+	//DrawDebugSphere(GetWorld(), ProjectileSpawnPointLocation, 20.f, 12, FColor::Green, false, 2.f);
 
 	FVector Location = ProjectileSpawnPoint->GetComponentLocation();
 	FRotator Rotation = ProjectileSpawnPoint->GetComponentRotation();  

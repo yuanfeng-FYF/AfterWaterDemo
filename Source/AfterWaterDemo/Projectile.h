@@ -25,6 +25,13 @@ public:
 
 private:
 
-	
+	UPROPERTY(EditDefaultsOnly, Category = "Water")
+	UStaticMeshComponent* ProjectileMesh;
+
+	UPROPERTY(VisibleAnyWhere, Category = "Movement")
+	class UProjectileMovementComponent* ProjectileMovementComponent;
+
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 };
