@@ -4,6 +4,7 @@
 #include "Projectile.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "CleanableActor.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -17,6 +18,7 @@ AProjectile::AProjectile()
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement Component"));
 	ProjectileMovementComponent->MaxSpeed = 1500.f;
 	ProjectileMovementComponent->InitialSpeed = 1500.f;
+	//ProjectileMovementComponent->ProjectileGravityScale = 0.f;//关闭投射物重力，使水球不因重力下坠
 }
 
 // Called when the game starts or when spawned
@@ -42,5 +44,17 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 	UE_LOG(LogTemp, Warning, TEXT("HitComp: %s"), *HitComp->GetName());
 	UE_LOG(LogTemp, Warning, TEXT("OtherActor: %s"), *OtherActor->GetName());
 	UE_LOG(LogTemp, Warning, TEXT("OtherComp: %s"),*OtherComp->GetName());
+
+	if(OtherActor && OtherActor != this)
+	{
+		ACleanableActor* CleanableActor = Cast<ACleanableActor>(OtherActor);
+
+		if(CleanableActor)
+		{
+			CleanableActor->ReceiveWater();
+		}
+		Destroy();
+	}
+	
 	
 }

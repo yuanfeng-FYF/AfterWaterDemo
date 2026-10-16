@@ -101,10 +101,14 @@ void ACarPawn::RotateCannon(FVector LookAtTarget)
 void ACarPawn::Water()
 {
 	//UE_LOG(LogTemp, Warning, TEXT("Water Called"));
-	FVector ProjectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
+	//FVector ProjectileSpawnPointLocation = ProjectileSpawnPoint->GetComponentLocation();
 	//DrawDebugSphere(GetWorld(), ProjectileSpawnPointLocation, 20.f, 12, FColor::Green, false, 2.f);
 
 	FVector Location = ProjectileSpawnPoint->GetComponentLocation();
 	FRotator Rotation = ProjectileSpawnPoint->GetComponentRotation();  
+	//FHitResult HitResult;
+	//PlayerControllerRef->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+	//FVector Direction = HitResult.ImpactPoint - Location;//目标位置减去起点位置，得到从喷水口指向目标的向量
+	//FRotator Rotation = Direction.Rotation();//将方向向量转换成包含上下俯仰的旋转角度
 	GetWorld()->SpawnActor<AProjectile>(ProjectileClass, Location, Rotation);
 }
