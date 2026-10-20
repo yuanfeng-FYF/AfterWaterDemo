@@ -21,12 +21,20 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UFUNCTION(BlueprintImplementableEvent, Category = "Victory")
+	void ShowWinScreen();
+
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Cleaning")
 	class UStaticMeshComponent* CleanableMesh;
 	
-	UPROPERTY()
-	class UMaterialInstanceDynamic* DynamicMaterial = nullptr;
+	UPROPERTY(EditDefaultsOnly, Category = "Cleaning")
+	//class UMaterialInstanceDynamic* DynamicMaterial = nullptr;
+	class UMaterialInterface* CleanMaterial = nullptr;//添加一个CleanMaterial
+
+	bool bIsClean = false;
+
+	void CheckWinCondition();
 
 public:	
 	// Called every frame

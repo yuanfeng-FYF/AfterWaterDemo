@@ -3,7 +3,9 @@
 
 #include "CleanableActor.h"
 #include "Components/StaticMeshComponent.h"
-#include "Materials/MaterialInstanceDynamic.h"
+//#include "Materials/MaterialInstanceDynamic.h"
+#include "Materials/MaterialInterface.h"
+#include "Kismet/GameplayStatics.h" // 用于查找当前场景中的所有可清洁物体
 
 // Sets default values
 ACleanableActor::ACleanableActor()
@@ -21,11 +23,11 @@ void ACleanableActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	DynamicMaterial = CleanableMesh->CreateDynamicMaterialInstance(0);
-	if(!DynamicMaterial)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Failed to create dynamic material : %s"), *GetName());
-	}
+	// DynamicMaterial = CleanableMesh->CreateDynamicMaterialInstance(0);
+	// if(!DynamicMaterial)
+	// {
+	// 	UE_LOG(LogTemp, Warning, TEXT("Failed to create dynamic material : %s"), *GetName());
+	// }
 	
 }
 
@@ -39,14 +41,44 @@ void ACleanableActor::Tick(float DeltaTime)
 
 void ACleanableActor::ReceiveWater()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Receive water : %s"), *GetName());
 
-	if(!DynamicMaterial)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("DynamicMaterial is null : %s"),*GetName());
-		return;
-	}
-	DynamicMaterial->SetVectorParameterValue(TEXT("SurfaceColor"), FLinearColor(0.165147f, 0.187506f, 0.206597f, 0.0f));
+	//CleanableMesh->SetMaterial(0, CleanMaterial);
+	CleanableMesh->SetVisibility(false);
+
+	bIsClean = true;
+	UE_LOG(LogTemp, Warning, TEXT("Cleaned: %s"), *GetName());
+	CheckWinCondition();
 }
+
+void ACleanableActor::CheckWinCondition()
+{
+	TArray<AActor*>CleanableActors;//创建数组，存放所有的可清洁体
+	UGameplayStatics::GetAllActorsOfClass(this, ACleanableActor::StaticClass(), CleanableActors);
+
+	int32 CleanedCount = 0;
+
+	for(AActor* Actor : CleanableActors)
+	{
+		ACleanableActor* CleanableActor = Cast<ACleanableActor>(Actor);
+
+		if(CleanableActor && CleanableActor->bIsClean)
+		{
+			CleanedCount++;
+		}
+	}
+	UE_LOG(LogTemp, Warning, TEXT("Cleaning progress: %d / %d"), CleanedCount, CleanableActors.Num());
+	
+	if(CleanableActors.Num() > 0 && CleanedCount == CleanableActors.Num())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("You win!"));
+
+		//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Yellow, TEXT("YOU WIN!"));
+		ShowWinScreen();
+	}
+
+
+}
+
+
 
 
