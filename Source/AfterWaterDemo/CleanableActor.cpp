@@ -75,8 +75,6 @@ void ACleanableActor::CheckWinCondition()
 		//GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Yellow, TEXT("YOU WIN!"));
 		ShowWinScreen();
 	}
-
-
 }
 
 
